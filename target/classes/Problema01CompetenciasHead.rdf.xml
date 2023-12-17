@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf  = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:lom  = "http://ltsc.ieee.org/rdf/lomv1p0/lom#"
+		 xmlns:lomvoc = "http://ltsc.ieee.org/rdf/lomv1p0/vocabulary#"         
+         xmlns:dc   = "http://purl.org/dc/terms/"
+         xmlns:dc11 = "http://purl.org/dc/elements/1.1/"
+         xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+         xmlns:owl  = "http://www.w3.org/2002/07/owl#"
+         xmlns:cha  = "http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#"
+         xmlns:rdfs = "http://www.w3.org/2000/01/rdf-schema#"
+		 xmlns:skos = "http://www.w3.org/2004/02/skos/core#">
+
+<!-- Caso PBL: metadados de estrutura usando lom, dc, vcard, skos, ... -->
+
+  <rdf:Description rdf:about="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md">
+    <rdf:type rdf:resource="http://ltsc.ieee.org/rdf/lomv1p0/lom#learningObject"/>
+    <lom:otherPlatformRequirements>Editor de texto</lom:otherPlatformRequirements>
+    <lom:aggregationLevel rdf:resource="http://ltsc.ieee.org/rdf/lomv1p0/vocabulary#AggregationLevel-1"/>
+    <lom:copyrightAndOtherRestrictions>yes</lom:copyrightAndOtherRestrictions>
+    <lom:cost>no</lom:cost>
+    <lom:keyword>PBL</lom:keyword>
+    <lom:keyword>Autômato Finito</lom:keyword>
+    <lom:keyword>Expressão Regular</lom:keyword>
+    <lom:metaMetadataLanguage>pt</lom:metaMetadataLanguage>
+    <lom:structure rdf:resource="http://ltsc.ieee.org/rdf/lomv1p0/vocabulary#Structure-atomic"/>
+    <dc11:language>pt</dc11:language>
+    <dc11:rights>http://creativecommons.org/licenses/by-nc-nd/3.0/</dc11:rights>
+    <dc11:title>Problema 1: A máquina de vender refrigerantes e salgados.</dc11:title>
+    <!-- Autores do caso PBL -->
+    <dc11:creator>
+      <rdf:Description>
+        <vcard:FN>Laís Salvador</vcard:FN>
+        <vcard:ORG>http://www.ufba.br</vcard:ORG>
+        <vcard:EMAIL>laisns@ufba.br </vcard:EMAIL>
+      </rdf:Description>
+    </dc11:creator>
+
+    <dc11:creator>
+      <rdf:Description>
+        <vcard:FN>Luiz Gavaza</vcard:FN>
+        <vcard:ORG>http://www.ufba.br</vcard:ORG>
+        <vcard:EMAIL>gavaza@gmail.com</vcard:EMAIL>
+      </rdf:Description>
+    </dc11:creator>
+
+    <dc11:creator>
+      <rdf:Description>
+        <vcard:FN>David Moises</vcard:FN>
+        <vcard:ORG>http://www.ufba.br</vcard:ORG>
+        <vcard:EMAIL>davidmoises@gmail.com </vcard:EMAIL>
+      </rdf:Description>
+    </dc11:creator>
+
+    <dc11:creator>
+      <rdf:Description>
+        <vcard:FN>Roberta Oliveira</vcard:FN>
+        <vcard:ORG>http://www.ufba.br</vcard:ORG>
+        <vcard:EMAIL>robertaoliveira@ufba.br
+        </vcard:EMAIL>
+      </rdf:Description>
+    </dc11:creator>
+
+  <!-- Competências do caso PBL -->
+	<cha:taskAchievesCompetence rdf:resource="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md#Criar_relatório_técnico"/>
+	<cha:taskAchievesCompetence rdf:resource="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md#Desenvolver_soluções_de_problemas_usando_Autômatos"/>
+	<cha:taskAchievesCompetence rdf:resource="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md#Testar_autômatos_usando_JFlap"/>
+  <cha:taskAchievesCompetence rdf:resource="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md#Determinar_Expressões_Regulares_que_representam_autômatos"/>
+  </rdf:Description>
+
+
+</rdf:RDF>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf  = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:lom  = "http://ltsc.ieee.org/rdf/lomv1p0/lom#"
+         xmlns:dc   = "http://purl.org/dc/terms/"
+         xmlns:dc11 = "http://purl.org/dc/elements/1.1/"
+         xmlns:vcard= "http://www.w3.org/2001/vcard-rdf/3.0#"
+         xmlns:owl  = "http://www.w3.org/2002/07/owl#"
+         xmlns:lomc = "http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#"
+         xmlns:rdfs = "http://www.w3.org/2000/01/rdf-schema#"
+		 xmlns:skos = "http://www.w3.org/2004/02/skos/core#"		 
+		 xmlns:ccs2012 = "http://www.acm.org/about/class/2012#"
+		 xmlns:fpk = "https://www.semanticweb.org/cc2020/fpk#" >
+
+<!-- Alteração em 25/04/2023 
+	- Inclusão dos NS:
+		 ccs2012 (Computer Knowledge) - usar descrição do conhecimento. 
+		 fpk (Foundational and Professional Knowledge).
+	- Alteração nos Vocabulários LOM, LOMC e lomc 
+-->
+
+<!-- Alteração em 26/04/2023 
+	- Alteração do CCS2012, adicionando as propriedades category e label.
+	- Alteração do Knowledge para usar category e label.
+-->
+
+<!-- Caso PBL: metadados de estrutura usando lom, dc, vcard, skos, ... -->
+
+  <rdf:Description rdf:about="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md">
+    <rdf:type rdf:resource="http://ltsc.ieee.org/rdf/lomv1p0/lom#learningObject"/>
+    <lom:otherPlatformRequirements>Editor de texto</lom:otherPlatformRequirements>
+    <lom:aggregationLevel rdf:resource="http://ltsc.ieee.org/rdf/lomv1p0/vocabulary#AggregationLevel-1"/>
+    <lom:copyrightAndOtherRestrictions>yes</lom:copyrightAndOtherRestrictions>
+    <lom:cost>no</lom:cost>
+    <lom:keyword>PBL</lom:keyword>
+    <lom:keyword>Autômato Finito</lom:keyword>
+    <lom:keyword>Expressão Regular</lom:keyword>
+    <lom:metaMetadataLanguage>pt</lom:metaMetadataLanguage>
+    <lom:structure rdf:resource="http://ltsc.ieee.org/rdf/lomv1p0/vocabulary#Structure-atomic"/>
+    <dc11:language>pt</dc11:language>
+    <dc11:rights>http://creativecommons.org/licenses/by-nc-nd/3.0/</dc11:rights>
+    <dc11:title>Problema 1: A máquina de vender refrigerantes e salgados.</dc11:title>
+    <!-- Autores do caso PBL -->
+    <dc11:creator>
+      <rdf:Description>
+        <vcard:FN>Laís Salvador</vcard:FN>
+        <vcard:ORG>http://www.ufba.br</vcard:ORG>
+        <vcard:EMAIL>laisns@ufba.br </vcard:EMAIL>
+      </rdf:Description>
+    </dc11:creator>
+
+    <dc11:creator>
+      <rdf:Description>
+        <vcard:FN>Luiz Gavaza</vcard:FN>
+        <vcard:ORG>http://www.ufba.br</vcard:ORG>
+        <vcard:EMAIL>gavaza@gmail.com</vcard:EMAIL>
+      </rdf:Description>
+    </dc11:creator>
+
+    <dc11:creator>
+      <rdf:Description>
+        <vcard:FN>David Moises</vcard:FN>
+        <vcard:ORG>http://www.ufba.br</vcard:ORG>
+        <vcard:EMAIL>davidmoises@gmail.com </vcard:EMAIL>
+      </rdf:Description>
+    </dc11:creator>
+
+    <dc11:creator>
+      <rdf:Description>
+        <vcard:FN>Roberta Oliveira</vcard:FN>
+        <vcard:ORG>http://www.ufba.br</vcard:ORG>
+        <vcard:EMAIL>robertaoliveira@ufba.br
+        </vcard:EMAIL>
+      </rdf:Description>
+    </dc11:creator>
+    
+    <dc11:date>2020/09/21</dc11:date>
+    <dc11:contributor> Edeyson Gomes </dc11:contributor>
+    <dc11:contributor> Jessica Santana </dc11:contributor>    
+
+  <!-- Competências do caso PBL -->
+   	<lom:educationalContext>higher education</lom:educationalContext>
+   	<lom:learningResourceType>problem statement</lom:learningResourceType>  
+   	<lom:educationalDescription>Competency Description</lom:educationalDescription> 
+   	  
+	<lomc:taskAchievesCompetence rdf:resource="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md#Create_Written_Communication"/>
+	<lomc:taskAchievesCompetence rdf:resource="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md#Desenvolver_soluções_de_problemas_usando_Autômatos"/>
+	<lomc:taskAchievesCompetence rdf:resource="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md#Testar_autômatos"/>
+	<lomc:taskAchievesCompetence rdf:resource="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md#Determinar_Expressões_Regulares_que_representam_autômatos"/>
+  </rdf:Description>
+
+
+<!-- Caso PBL: metadados de Competências -->
+
+<!-- Competência: Create Written Communication -->
+  <rdf:Description rdf:about="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md#Create_Written_Communication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#AtomicCompetence"/>
+        <lomc:hasKnowledgeSkill rdf:resource="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md#Written_Communication_x_Create"/>
+        <rdfs:label xml:lang="pt">Create x Written Communication</rdfs:label>
+  </rdf:Description>
+
+<!-- KnowledgeSkill: Written_Communication_x_Create -->
+  <rdf:Description rdf:about="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md#Written_Communication_x_Create">
+    <rdf:type rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#KnowledgeSkill"/>
+    <lomc:hasKnowledge>
+      <rdf:Description>
+			<fpk:label xml:lang="en">Written Communication</fpk:label>
+	  </rdf:Description>
+	</lomc:hasKnowledge>  
+    <lomc:hasSkill rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#Creating"/>
+    <rdfs:label xml:lang="pt">Knowledge x Skill : Create Written Communication</rdfs:label>
+  </rdf:Description>
+  
+<!-- Competência: Desenvolver soluções de problemas usando Autômatos -->
+
+  <rdf:Description  rdf:about="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md#Desenvolver_soluções_de_problemas_usando_Autômatos">
+    <rdf:type rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#AtomicCompetence"/>
+    <lomc:hasKnowledgeSkill rdf:resource="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md#KS_Automata_over_infinite_objects_x_Create"/>
+    <lomc:hasDisposition rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#Colaborativo"/>
+    <lomc:hasDisposition rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#Inventivo"/>
+    <lomc:hasDisposition rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#Investigativo"/>
+    <lomc:hasDisposition rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#Proativo"/>
+    <lomc:hasDisposition rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#Responsável"/>
+    <rdfs:label xml:lang="pt">Desenvolver soluções de problemas usando Autômatos</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md#KS_Automata_over_infinite_objects_x_Create">
+    <rdf:type rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#KnowledgeSkill"/>
+    <lomc:hasKnowledge>
+      <rdf:Description>		
+		<ccs2012:label xml:lang="en">Automata over infinite objects</ccs2012:label>
+		<ccs2012:category>10003752.10003766.10003770</ccs2012:category>
+	  </rdf:Description>
+	</lomc:hasKnowledge>     
+    <lomc:hasSkill rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#Creating"/>
+    <rdfs:label xml:lang="pt">KnowledgeSkill Automata_over_infinite_objects x Create"</rdfs:label>
+  </rdf:Description>
+  
+<!--  Competência: Testar autômatos usando JFlap  -->
+  <rdf:Description  rdf:about="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md#Testar_autômatos_usando_JFlap">
+    <rdf:type rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#AtomicCompetence"/>
+    <lomc:hasKnowledgeSkill rdf:resource="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md#KS_Automata_over_infinite_objects_x_Apply"/>
+    <lomc:hasDisposition rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#Colaborativo"/>
+    <lomc:hasDisposition rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#Inventivo"/>
+    <lomc:hasDisposition rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#Investigativo"/>
+    <lomc:hasDisposition rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#Proativo"/>
+    <lomc:hasDisposition rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#Responsável"/>
+    <rdfs:label xml:lang="pt">Testar autômatos usando JFlap</rdfs:label>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md#KS_Automata_over_infinite_objects_x_Apply">
+    <rdf:type rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#KnowledgeSkill"/>
+    <lomc:hasKnowledge>
+		<rdf:Description>
+			<ccs2012:label xml:lang="en">Automata over infinite objects</ccs2012:label>
+			<ccs2012:category>10003752.10003766.10003770</ccs2012:category>
+		</rdf:Description>
+	</lomc:hasKnowledge> 
+    <lomc:hasSkill rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#Applying"/>
+    <rdfs:label xml:lang="pt">Testar Autômato</rdfs:label>
+  </rdf:Description>  
+
+
+<!--  Competência: Determinar Expressões Regulares que representam autômatos  -->
+
+  <rdf:Description  rdf:about="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md#Determinar_Expressões_Regulares_que_representam_autômatos">
+    <rdf:type rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#AtomicCompetence"/>
+    <lomc:hasKnowledgeSkill rdf:resource="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md#Compreender_Autômato_Finito"/>
+    <lomc:hasKnowledgeSkill rdf:resource="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md#Criar_Expressões_Regulares"/>
+    <lomc:hasDisposition rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#Colaborativo"/>
+    <lomc:hasDisposition rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#Inventivo"/>
+    <lomc:hasDisposition rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#Investigativo"/>
+    <lomc:hasDisposition rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#Proativo"/>
+    <lomc:hasDisposition rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#Responsável"/>
+    <rdfs:label xml:lang="pt">Determinar Expressões Regulares que representam autômatos</rdfs:label>
+  </rdf:Description >
+
+  <rdf:Description rdf:about="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md#Compreender_Autômato_Finito">
+    <rdf:type rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#KnowledgeSkill"/>
+    <lomc:hasKnowledge>
+	  <rdf:Description>
+		<ccs2012:label xml:lang="en">Automata over infinite objects</ccs2012:label>
+		<ccs2012:category>10003752.10003766.10003770</ccs2012:category>
+ 	  </rdf:Description>
+	</lomc:hasKnowledge> 
+    <lomc:hasSkill rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#Understanding"/>
+    <rdfs:label xml:lang="pt">Compreender Autômato Finito</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://github.com/EdeysonUFBA/EduKnow/tree/main/RepoPBL/MaquinaSalgados/Problema01.md#Criar_Expressões_Regulares">
+    <rdf:type rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#KnowledgeSkill"/>
+    <lomc:hasKnowledge>
+	   <rdf:Description>
+		<ccs2012:label xml:lang="en">Regular languages</ccs2012:label>
+		<ccs2012:category>10003752.10003766.10003776</ccs2012:category>
+	   </rdf:Description>		
+	</lomc:hasKnowledge>
+    <lomc:hasSkill rdf:resource="http://www.semanticweb.org/edeyson/ontologies/2021/Competencias#Creating"/>
+    <rdfs:label xml:lang="pt">Criar Expressões Regulares</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

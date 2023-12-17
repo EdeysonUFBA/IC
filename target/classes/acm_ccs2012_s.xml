@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF 
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+	xmlns:xml="http://www.w3.org/XML/1998/namespace" 
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#" 
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+	
+  <skos:ConceptScheme rdf:about="ccs2012">
+    <skos:hasTopConcept rdf:resource="10010405" />
+    <skos:hasTopConcept rdf:resource="10010520" />
+    <skos:hasTopConcept rdf:resource="10010583" />
+    <skos:hasTopConcept rdf:resource="10011007" />
+    <skos:hasTopConcept rdf:resource="10002944" />
+    <skos:hasTopConcept rdf:resource="10002950" />
+    <skos:hasTopConcept rdf:resource="10002951" />
+    <skos:hasTopConcept rdf:resource="10002978" />
+    <skos:hasTopConcept rdf:resource="10003033" />
+    <skos:hasTopConcept rdf:resource="10003120" />
+    <skos:hasTopConcept rdf:resource="10003456" />
+    <skos:hasTopConcept rdf:resource="10003752" />
+    <skos:hasTopConcept rdf:resource="10010147" />
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="10002944">
+    <skos:prefLabel xml:lang="en">General and reference</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="ccs2012" />
+    <skos:narrower rdf:resource="10002944.10011122" />
+    <skos:narrower rdf:resource="10002944.10011123" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950">
+    <skos:prefLabel xml:lang="en">Mathematics of computing</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="ccs2012" />
+    <skos:narrower rdf:resource="10002950.10003624" />
+    <skos:narrower rdf:resource="10002950.10003648" />
+    <skos:narrower rdf:resource="10002950.10003705" />
+    <skos:narrower rdf:resource="10002950.10003712" />
+    <skos:narrower rdf:resource="10002950.10003714" />
+    <skos:narrower rdf:resource="10002950.10003741" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002951">
+    <skos:prefLabel xml:lang="en">Information systems</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="ccs2012" />
+    <skos:narrower rdf:resource="10002951.10002952" />
+    <skos:narrower rdf:resource="10002951.10003152" />
+    <skos:narrower rdf:resource="10002951.10003227" />
+    <skos:narrower rdf:resource="10002951.10003260" />
+    <skos:narrower rdf:resource="10002951.10003317" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002978">
+    <skos:prefLabel xml:lang="en">Security and privacy</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="ccs2012" />
+    <skos:narrower rdf:resource="10002978.10002979" />
+    <skos:narrower rdf:resource="10002978.10002986" />
+    <skos:narrower rdf:resource="10002978.10002991" />
+    <skos:narrower rdf:resource="10002978.10002997" />
+    <skos:narrower rdf:resource="10002978.10003001" />
+    <skos:narrower rdf:resource="10002978.10003006" />
+    <skos:narrower rdf:resource="10002978.10003014" />
+    <skos:narrower rdf:resource="10002978.10003018" />
+    <skos:narrower rdf:resource="10002978.10003022" />
+    <skos:narrower rdf:resource="10002978.10003029" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003033">
+    <skos:prefLabel xml:lang="en">Networks</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="ccs2012" />
+    <skos:narrower rdf:resource="10003033.10003034" />
+    <skos:narrower rdf:resource="10003033.10003039" />
+    <skos:narrower rdf:resource="10003033.10003058" />
+    <skos:narrower rdf:resource="10003033.10003068" />
+    <skos:narrower rdf:resource="10003033.10003079" />
+    <skos:narrower rdf:resource="10003033.10003083" />
+    <skos:narrower rdf:resource="10003033.10003099" />
+    <skos:narrower rdf:resource="10003033.10003106" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003120">
+    <skos:prefLabel xml:lang="en">Human-centered computing</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="ccs2012" />
+    <skos:narrower rdf:resource="10003120.10003121" />
+    <skos:narrower rdf:resource="10003120.10003123" />
+    <skos:narrower rdf:resource="10003120.10003130" />
+    <skos:narrower rdf:resource="10003120.10003138" />
+    <skos:narrower rdf:resource="10003120.10003145" />
+    <skos:narrower rdf:resource="10003120.10011738" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003456">
+    <skos:prefLabel xml:lang="en">Social and professional topics</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="ccs2012" />
+    <skos:narrower rdf:resource="10003456.10003457" />
+    <skos:narrower rdf:resource="10003456.10003462" />
+    <skos:narrower rdf:resource="10003456.10010927" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003752">
+    <skos:prefLabel xml:lang="en">Theory of computation</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="ccs2012" />
+    <skos:narrower rdf:resource="10003752.10003753" />
+    <skos:narrower rdf:resource="10003752.10003766" />
+    <skos:narrower rdf:resource="10003752.10003777" />
+    <skos:narrower rdf:resource="10003752.10003790" />
+    <skos:narrower rdf:resource="10003752.10003809" />
+    <skos:narrower rdf:resource="10003752.10010061" />
+    <skos:narrower rdf:resource="10003752.10010070" />
+    <skos:narrower rdf:resource="10003752.10010124" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010147">
+    <skos:prefLabel xml:lang="en">Computing methodologies</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="ccs2012" />
+    <skos:narrower rdf:resource="10010147.10010148" />
+    <skos:narrower rdf:resource="10010147.10010169" />
+    <skos:narrower rdf:resource="10010147.10010178" />
+    <skos:narrower rdf:resource="10010147.10010257" />
+    <skos:narrower rdf:resource="10010147.10010341" />
+    <skos:narrower rdf:resource="10010147.10010371" />
+    <skos:narrower rdf:resource="10010147.10010919" />
+    <skos:narrower rdf:resource="10010147.10011777" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010405">
+    <skos:prefLabel xml:lang="en">Applied computing</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="ccs2012" />
+    <skos:narrower rdf:resource="10010405.10003550" />
+    <skos:narrower rdf:resource="10010405.10010406" />
+    <skos:narrower rdf:resource="10010405.10010432" />
+    <skos:narrower rdf:resource="10010405.10010444" />
+    <skos:narrower rdf:resource="10010405.10010455" />
+    <skos:narrower rdf:resource="10010405.10010462" />
+    <skos:narrower rdf:resource="10010405.10010469" />
+    <skos:narrower rdf:resource="10010405.10010476" />
+    <skos:narrower rdf:resource="10010405.10010481" />
+    <skos:narrower rdf:resource="10010405.10010489" />
+    <skos:narrower rdf:resource="10010405.10010497" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010520">
+    <skos:prefLabel xml:lang="en">Computer systems organization</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="ccs2012" />
+    <skos:narrower rdf:resource="10010520.10010521" />
+    <skos:narrower rdf:resource="10010520.10010553" />
+    <skos:narrower rdf:resource="10010520.10010570" />
+    <skos:narrower rdf:resource="10010520.10010575" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010583">
+    <skos:prefLabel xml:lang="en">Hardware</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="ccs2012" />
+    <skos:narrower rdf:resource="10010583.10010584" />
+    <skos:narrower rdf:resource="10010583.10010588" />
+    <skos:narrower rdf:resource="10010583.10010600" />
+    <skos:narrower rdf:resource="10010583.10010633" />
+    <skos:narrower rdf:resource="10010583.10010662" />
+    <skos:narrower rdf:resource="10010583.10010682" />
+    <skos:narrower rdf:resource="10010583.10010717" />
+    <skos:narrower rdf:resource="10010583.10010737" />
+    <skos:narrower rdf:resource="10010583.10010750" />
+    <skos:narrower rdf:resource="10010583.10010786" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10011007">
+    <skos:prefLabel xml:lang="en">Software and its engineering</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="ccs2012" />
+    <skos:narrower rdf:resource="10011007.10010940" />
+    <skos:narrower rdf:resource="10011007.10011006" />
+    <skos:narrower rdf:resource="10011007.10011074" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002944.10011122">
+    <skos:prefLabel xml:lang="en">Document types</skos:prefLabel>
+    <skos:broader rdf:resource="10002944" />
+    <skos:narrower rdf:resource="10002944.10011122.10002945" />
+    <skos:narrower rdf:resource="10002944.10011122.10002946" />
+    <skos:narrower rdf:resource="10002944.10011122.10002947" />
+    <skos:narrower rdf:resource="10002944.10011122.10002948" />
+    <skos:narrower rdf:resource="10002944.10011122.10002949" />
+    <skos:narrower rdf:resource="10002944.10011122.10003459" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002944.10011123">
+    <skos:prefLabel xml:lang="en">Cross-computing tools and techniques</skos:prefLabel>
+    <skos:broader rdf:resource="10002944" />
+    <skos:narrower rdf:resource="10002944.10011123.10010577" />
+    <skos:narrower rdf:resource="10002944.10011123.10010912" />
+    <skos:narrower rdf:resource="10002944.10011123.10010916" />
+    <skos:narrower rdf:resource="10002944.10011123.10011124" />
+    <skos:narrower rdf:resource="10002944.10011123.10011130" />
+    <skos:narrower rdf:resource="10002944.10011123.10011131" />
+    <skos:narrower rdf:resource="10002944.10011123.10011133" />
+    <skos:narrower rdf:resource="10002944.10011123.10011673" />
+    <skos:narrower rdf:resource="10002944.10011123.10011674" />
+    <skos:narrower rdf:resource="10002944.10011123.10011675" />
+    <skos:narrower rdf:resource="10002944.10011123.10011676" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003624">
+    <skos:prefLabel xml:lang="en">Discrete mathematics</skos:prefLabel>
+    <skos:broader rdf:resource="10002950" />
+    <skos:narrower rdf:resource="10002950.10003624.10003625" />
+    <skos:narrower rdf:resource="10002950.10003624.10003633" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003648">
+    <skos:prefLabel xml:lang="en">Probability and statistics</skos:prefLabel>
+    <skos:broader rdf:resource="10002950" />
+    <skos:narrower rdf:resource="10002950.10003648.10003649" />
+    <skos:narrower rdf:resource="10002950.10003648.10003662" />
+    <skos:narrower rdf:resource="10002950.10003648.10003670" />
+    <skos:narrower rdf:resource="10002950.10003648.10003671" />
+    <skos:narrower rdf:resource="10002950.10003648.10003688" />
+    <skos:narrower rdf:resource="10002950.10003648.10003700" />
+    <skos:narrower rdf:resource="10002950.10003648.10003702" />
+    <skos:narrower rdf:resource="10002950.10003648.10003703" />
+    <skos:narrower rdf:resource="10002950.10003648.10003704" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003705">
+    <skos:prefLabel xml:lang="en">Mathematical software</skos:prefLabel>
+    <skos:broader rdf:resource="10002950" />
+    <skos:narrower rdf:resource="10002950.10003705.10003707" />
+    <skos:narrower rdf:resource="10002950.10003705.10003708" />
+    <skos:narrower rdf:resource="10002950.10003705.10011686" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003712">
+    <skos:prefLabel xml:lang="en">Information theory</skos:prefLabel>
+    <skos:broader rdf:resource="10002950" />
+    <skos:narrower rdf:resource="10002950.10003712.10003713" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003714">
+    <skos:prefLabel xml:lang="en">Mathematical analysis</skos:prefLabel>
+    <skos:broader rdf:resource="10002950" />
+    <skos:narrower rdf:resource="10002950.10003714.10003715" />
+    <skos:narrower rdf:resource="10002950.10003714.10003716" />
+    <skos:narrower rdf:resource="10002950.10003714.10003727" />
+    <skos:narrower rdf:resource="10002950.10003714.10003732" />
+    <skos:narrower rdf:resource="10002950.10003714.10003736" />
+    <skos:narrower rdf:resource="10002950.10003714.10003738" />
+    <skos:narrower rdf:resource="10002950.10003714.10003739" />
+    <skos:narrower rdf:resource="10002950.10003714.10003740" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003741">
+    <skos:prefLabel xml:lang="en">Continuous mathematics</skos:prefLabel>
+    <skos:broader rdf:resource="10002950" />
+    <skos:narrower rdf:resource="10002950.10003741.10003732" />
+    <skos:narrower rdf:resource="10002950.10003741.10003742" />
+    <skos:narrower rdf:resource="10002950.10003741.10003746" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002951.10002952">
+    <skos:prefLabel xml:lang="en">Data management systems</skos:prefLabel>
+    <skos:broader rdf:resource="10002951" />
+    <skos:narrower rdf:resource="10002951.10002952.10002953" />
+    <skos:narrower rdf:resource="10002951.10002952.10002971" />
+    <skos:narrower rdf:resource="10002951.10002952.10003190" />
+    <skos:narrower rdf:resource="10002951.10002952.10003197" />
+    <skos:narrower rdf:resource="10002951.10002952.10003212" />
+    <skos:narrower rdf:resource="10002951.10002952.10003219" />
+    <skos:narrower rdf:resource="10002951.10002952.10003400" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002951.10003152">
+    <skos:prefLabel xml:lang="en">Information storage systems</skos:prefLabel>
+    <skos:broader rdf:resource="10002951" />
+    <skos:narrower rdf:resource="10002951.10003152.10003153" />
+    <skos:narrower rdf:resource="10002951.10003152.10003161" />
+    <skos:narrower rdf:resource="10002951.10003152.10003166" />
+    <skos:narrower rdf:resource="10002951.10003152.10003517" />
+    <skos:narrower rdf:resource="10002951.10003152.10003520" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002951.10003227">
+    <skos:prefLabel xml:lang="en">Information systems applications</skos:prefLabel>
+    <skos:broader rdf:resource="10002951" />
+    <skos:narrower rdf:resource="10002951.10003227.10003228" />
+    <skos:narrower rdf:resource="10002951.10003227.10003233" />
+    <skos:narrower rdf:resource="10002951.10003227.10003236" />
+    <skos:narrower rdf:resource="10002951.10003227.10003241" />
+    <skos:narrower rdf:resource="10002951.10003227.10003245" />
+    <skos:narrower rdf:resource="10002951.10003227.10003246" />
+    <skos:narrower rdf:resource="10002951.10003227.10003251" />
+    <skos:narrower rdf:resource="10002951.10003227.10003351" />
+    <skos:narrower rdf:resource="10002951.10003227.10003392" />
+    <skos:narrower rdf:resource="10002951.10003227.10003447" />
+    <skos:narrower rdf:resource="10002951.10003227.10010926" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002951.10003260">
+    <skos:prefLabel xml:lang="en">World Wide Web</skos:prefLabel>
+    <skos:broader rdf:resource="10002951" />
+    <skos:narrower rdf:resource="10002951.10003260.10003261" />
+    <skos:narrower rdf:resource="10002951.10003260.10003272" />
+    <skos:narrower rdf:resource="10002951.10003260.10003277" />
+    <skos:narrower rdf:resource="10002951.10003260.10003282" />
+    <skos:narrower rdf:resource="10002951.10003260.10003300" />
+    <skos:narrower rdf:resource="10002951.10003260.10003304" />
+    <skos:narrower rdf:resource="10002951.10003260.10003309" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002951.10003317">
+    <skos:prefLabel xml:lang="en">Information retrieval</skos:prefLabel>
+    <skos:broader rdf:resource="10002951" />
+    <skos:narrower rdf:resource="10002951.10003317.10003318" />
+    <skos:narrower rdf:resource="10002951.10003317.10003325" />
+    <skos:narrower rdf:resource="10002951.10003317.10003331" />
+    <skos:narrower rdf:resource="10002951.10003317.10003338" />
+    <skos:narrower rdf:resource="10002951.10003317.10003347" />
+    <skos:narrower rdf:resource="10002951.10003317.10003359" />
+    <skos:narrower rdf:resource="10002951.10003317.10003365" />
+    <skos:narrower rdf:resource="10002951.10003317.10003371" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002978.10002979">
+    <skos:prefLabel xml:lang="en">Cryptography</skos:prefLabel>
+    <skos:broader rdf:resource="10002978" />
+    <skos:narrower rdf:resource="10002978.10002979.10002980" />
+    <skos:narrower rdf:resource="10002978.10002979.10002981" />
+    <skos:narrower rdf:resource="10002978.10002979.10002982" />
+    <skos:narrower rdf:resource="10002978.10002979.10002983" />
+    <skos:narrower rdf:resource="10002978.10002979.10002984" />
+    <skos:narrower rdf:resource="10002978.10002979.10002985" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002978.10002986">
+    <skos:prefLabel xml:lang="en">Formal methods and theory of security</skos:prefLabel>
+    <skos:broader rdf:resource="10002978" />
+    <skos:narrower rdf:resource="10002978.10002986.10002987" />
+    <skos:narrower rdf:resource="10002978.10002986.10002988" />
+    <skos:narrower rdf:resource="10002978.10002986.10002989" />
+    <skos:narrower rdf:resource="10002978.10002986.10002990" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002978.10002991">
+    <skos:prefLabel xml:lang="en">Security services</skos:prefLabel>
+    <skos:broader rdf:resource="10002978" />
+    <skos:narrower rdf:resource="10002978.10002991.10002992" />
+    <skos:narrower rdf:resource="10002978.10002991.10002993" />
+    <skos:narrower rdf:resource="10002978.10002991.10002994" />
+    <skos:narrower rdf:resource="10002978.10002991.10002995" />
+    <skos:narrower rdf:resource="10002978.10002991.10002996" />
+    <skos:narrower rdf:resource="10002978.10002991.10010839" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002978.10002997">
+    <skos:prefLabel xml:lang="en">Intrusion/anomaly detection and malware mitigation</skos:prefLabel>
+    <skos:broader rdf:resource="10002978" />
+    <skos:narrower rdf:resource="10002978.10002997.10002998" />
+    <skos:narrower rdf:resource="10002978.10002997.10002999" />
+    <skos:narrower rdf:resource="10002978.10002997.10003000" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002978.10003001">
+    <skos:prefLabel xml:lang="en">Security in hardware</skos:prefLabel>
+    <skos:broader rdf:resource="10002978" />
+    <skos:narrower rdf:resource="10002978.10003001.10003002" />
+    <skos:narrower rdf:resource="10002978.10003001.10003003" />
+    <skos:narrower rdf:resource="10002978.10003001.10003599" />
+    <skos:narrower rdf:resource="10002978.10003001.10010777" />
+    <skos:narrower rdf:resource="10002978.10003001.10011746" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002978.10003006">
+    <skos:prefLabel xml:lang="en">Systems security</skos:prefLabel>
+    <skos:broader rdf:resource="10002978" />
+    <skos:narrower rdf:resource="10002978.10003006.10003007" />
+    <skos:narrower rdf:resource="10002978.10003006.10003011" />
+    <skos:narrower rdf:resource="10002978.10003006.10003013" />
+    <skos:narrower rdf:resource="10002978.10003006.10011608" />
+    <skos:narrower rdf:resource="10002978.10003006.10011610" />
+    <skos:narrower rdf:resource="10002978.10003006.10011617" />
+    <skos:narrower rdf:resource="10002978.10003006.10011634" />
+    <skos:narrower rdf:resource="10002978.10003006.10011747" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002978.10003014">
+    <skos:prefLabel xml:lang="en">Network security</skos:prefLabel>
+    <skos:broader rdf:resource="10002978" />
+    <skos:narrower rdf:resource="10002978.10003014.10003015" />
+    <skos:narrower rdf:resource="10002978.10003014.10003016" />
+    <skos:narrower rdf:resource="10002978.10003014.10003017" />
+    <skos:narrower rdf:resource="10002978.10003014.10011610" />
+    <skos:narrower rdf:resource="10002978.10003014.10011617" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002978.10003018">
+    <skos:prefLabel xml:lang="en">Database and storage security</skos:prefLabel>
+    <skos:broader rdf:resource="10002978" />
+    <skos:narrower rdf:resource="10002978.10003018.10003019" />
+    <skos:narrower rdf:resource="10002978.10003018.10003020" />
+    <skos:narrower rdf:resource="10002978.10003018.10003021" />
+    <skos:narrower rdf:resource="10002978.10003018.10011607" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002978.10003022">
+    <skos:prefLabel xml:lang="en">Software and application security</skos:prefLabel>
+    <skos:broader rdf:resource="10002978" />
+    <skos:narrower rdf:resource="10002978.10003022.10003023" />
+    <skos:narrower rdf:resource="10002978.10003022.10003026" />
+    <skos:narrower rdf:resource="10002978.10003022.10003027" />
+    <skos:narrower rdf:resource="10002978.10003022.10003028" />
+    <skos:narrower rdf:resource="10002978.10003022.10003465" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002978.10003029">
+    <skos:prefLabel xml:lang="en">Human and societal aspects of security and privacy</skos:prefLabel>
+    <skos:broader rdf:resource="10002978" />
+    <skos:narrower rdf:resource="10002978.10003029.10003031" />
+    <skos:narrower rdf:resource="10002978.10003029.10003032" />
+    <skos:narrower rdf:resource="10002978.10003029.10011150" />
+    <skos:narrower rdf:resource="10002978.10003029.10011703" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003033.10003034">
+    <skos:prefLabel xml:lang="en">Network architectures</skos:prefLabel>
+    <skos:broader rdf:resource="10003033" />
+    <skos:narrower rdf:resource="10003033.10003034.10003035" />
+    <skos:narrower rdf:resource="10003033.10003034.10003038" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003033.10003039">
+    <skos:prefLabel xml:lang="en">Network protocols</skos:prefLabel>
+    <skos:broader rdf:resource="10003033" />
+    <skos:narrower rdf:resource="10003033.10003039.10003040" />
+    <skos:narrower rdf:resource="10003033.10003039.10003041" />
+    <skos:narrower rdf:resource="10003033.10003039.10003044" />
+    <skos:narrower rdf:resource="10003033.10003039.10003045" />
+    <skos:narrower rdf:resource="10003033.10003039.10003048" />
+    <skos:narrower rdf:resource="10003033.10003039.10003049" />
+    <skos:narrower rdf:resource="10003033.10003039.10003050" />
+    <skos:narrower rdf:resource="10003033.10003039.10003051" />
+    <skos:narrower rdf:resource="10003033.10003039.10003053" />
+    <skos:narrower rdf:resource="10003033.10003039.10003056" />
+    <skos:narrower rdf:resource="10003033.10003039.10011655" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003033.10003058">
+    <skos:prefLabel xml:lang="en">Network components</skos:prefLabel>
+    <skos:broader rdf:resource="10003033" />
+    <skos:narrower rdf:resource="10003033.10003058.10003059" />
+    <skos:narrower rdf:resource="10003033.10003058.10003062" />
+    <skos:narrower rdf:resource="10003033.10003058.10003063" />
+    <skos:narrower rdf:resource="10003033.10003058.10003064" />
+    <skos:narrower rdf:resource="10003033.10003058.10003065" />
+    <skos:narrower rdf:resource="10003033.10003058.10003066" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003033.10003068">
+    <skos:prefLabel xml:lang="en">Network algorithms</skos:prefLabel>
+    <skos:broader rdf:resource="10003033" />
+    <skos:narrower rdf:resource="10003033.10003068.10003069" />
+    <skos:narrower rdf:resource="10003033.10003068.10003073" />
+    <skos:narrower rdf:resource="10003033.10003068.10003078" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003033.10003079">
+    <skos:prefLabel xml:lang="en">Network performance evaluation</skos:prefLabel>
+    <skos:broader rdf:resource="10003033" />
+    <skos:narrower rdf:resource="10003033.10003079.10003080" />
+    <skos:narrower rdf:resource="10003033.10003079.10003081" />
+    <skos:narrower rdf:resource="10003033.10003079.10003082" />
+    <skos:narrower rdf:resource="10003033.10003079.10011672" />
+    <skos:narrower rdf:resource="10003033.10003079.10011704" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003033.10003083">
+    <skos:prefLabel xml:lang="en">Network properties</skos:prefLabel>
+    <skos:broader rdf:resource="10003033" />
+    <skos:narrower rdf:resource="10003033.10003083.10003014" />
+    <skos:narrower rdf:resource="10003033.10003083.10003084" />
+    <skos:narrower rdf:resource="10003033.10003083.10003090" />
+    <skos:narrower rdf:resource="10003033.10003083.10003094" />
+    <skos:narrower rdf:resource="10003033.10003083.10003095" />
+    <skos:narrower rdf:resource="10003033.10003083.10003097" />
+    <skos:narrower rdf:resource="10003033.10003083.10003098" />
+    <skos:narrower rdf:resource="10003033.10003083.10011739" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003033.10003099">
+    <skos:prefLabel xml:lang="en">Network services</skos:prefLabel>
+    <skos:broader rdf:resource="10003033" />
+    <skos:narrower rdf:resource="10003033.10003099.10003037" />
+    <skos:narrower rdf:resource="10003033.10003099.10003100" />
+    <skos:narrower rdf:resource="10003033.10003099.10003101" />
+    <skos:narrower rdf:resource="10003033.10003099.10003102" />
+    <skos:narrower rdf:resource="10003033.10003099.10003103" />
+    <skos:narrower rdf:resource="10003033.10003099.10003104" />
+    <skos:narrower rdf:resource="10003033.10003099.10003105" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003033.10003106">
+    <skos:prefLabel xml:lang="en">Network types</skos:prefLabel>
+    <skos:broader rdf:resource="10003033" />
+    <skos:narrower rdf:resource="10003033.10003106.10003107" />
+    <skos:narrower rdf:resource="10003033.10003106.10003108" />
+    <skos:narrower rdf:resource="10003033.10003106.10003109" />
+    <skos:narrower rdf:resource="10003033.10003106.10003110" />
+    <skos:narrower rdf:resource="10003033.10003106.10003111" />
+    <skos:narrower rdf:resource="10003033.10003106.10003112" />
+    <skos:narrower rdf:resource="10003033.10003106.10003113" />
+    <skos:narrower rdf:resource="10003033.10003106.10003114" />
+    <skos:narrower rdf:resource="10003033.10003106.10003119" />
+    <skos:narrower rdf:resource="10003033.10003106.10010582" />
+    <skos:narrower rdf:resource="10003033.10003106.10010924" />
+    <skos:narrower rdf:resource="10003033.10003106.10011705" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003120.10003121">
+    <skos:prefLabel xml:lang="en">Human computer interaction (HCI)</skos:prefLabel>
+    <skos:broader rdf:resource="10003120" />
+    <skos:narrower rdf:resource="10003120.10003121.10003122" />
+    <skos:narrower rdf:resource="10003120.10003121.10003124" />
+    <skos:narrower rdf:resource="10003120.10003121.10003125" />
+    <skos:narrower rdf:resource="10003120.10003121.10003126" />
+    <skos:narrower rdf:resource="10003120.10003121.10003128" />
+    <skos:narrower rdf:resource="10003120.10003121.10003129" />
+    <skos:narrower rdf:resource="10003120.10003121.10011748" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003120.10003123">
+    <skos:prefLabel xml:lang="en">Interaction design</skos:prefLabel>
+    <skos:broader rdf:resource="10003120" />
+    <skos:narrower rdf:resource="10003120.10003123.10010860" />
+    <skos:narrower rdf:resource="10003120.10003123.10011758" />
+    <skos:narrower rdf:resource="10003120.10003123.10011759" />
+    <skos:narrower rdf:resource="10003120.10003123.10011760" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003120.10003130">
+    <skos:prefLabel xml:lang="en">Collaborative and social computing</skos:prefLabel>
+    <skos:broader rdf:resource="10003120" />
+    <skos:narrower rdf:resource="10003120.10003130.10003131" />
+    <skos:narrower rdf:resource="10003120.10003130.10003134" />
+    <skos:narrower rdf:resource="10003120.10003130.10003233" />
+    <skos:narrower rdf:resource="10003120.10003130.10011762" />
+    <skos:narrower rdf:resource="10003120.10003130.10011764" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003120.10003138">
+    <skos:prefLabel xml:lang="en">Ubiquitous and mobile computing</skos:prefLabel>
+    <skos:broader rdf:resource="10003120" />
+    <skos:narrower rdf:resource="10003120.10003138.10003139" />
+    <skos:narrower rdf:resource="10003120.10003138.10003140" />
+    <skos:narrower rdf:resource="10003120.10003138.10003141" />
+    <skos:narrower rdf:resource="10003120.10003138.10003142" />
+    <skos:narrower rdf:resource="10003120.10003138.10011767" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003120.10003145">
+    <skos:prefLabel xml:lang="en">Visualization</skos:prefLabel>
+    <skos:broader rdf:resource="10003120" />
+    <skos:narrower rdf:resource="10003120.10003145.10003146" />
+    <skos:narrower rdf:resource="10003120.10003145.10003147" />
+    <skos:narrower rdf:resource="10003120.10003145.10003151" />
+    <skos:narrower rdf:resource="10003120.10003145.10011768" />
+    <skos:narrower rdf:resource="10003120.10003145.10011769" />
+    <skos:narrower rdf:resource="10003120.10003145.10011770" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003120.10011738">
+    <skos:prefLabel xml:lang="en">Accessibility</skos:prefLabel>
+    <skos:broader rdf:resource="10003120" />
+    <skos:narrower rdf:resource="10003120.10011738.10011772" />
+    <skos:narrower rdf:resource="10003120.10011738.10011773" />
+    <skos:narrower rdf:resource="10003120.10011738.10011774" />
+    <skos:narrower rdf:resource="10003120.10011738.10011775" />
+    <skos:narrower rdf:resource="10003120.10011738.10011776" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003456.10003457">
+    <skos:prefLabel xml:lang="en">Professional topics</skos:prefLabel>
+    <skos:broader rdf:resource="10003456" />
+    <skos:narrower rdf:resource="10003456.10003457.10003458" />
+    <skos:narrower rdf:resource="10003456.10003457.10003490" />
+    <skos:narrower rdf:resource="10003456.10003457.10003521" />
+    <skos:narrower rdf:resource="10003456.10003457.10003527" />
+    <skos:narrower rdf:resource="10003456.10003457.10003567" />
+    <skos:narrower rdf:resource="10003456.10003457.10003580" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003456.10003462">
+    <skos:prefLabel xml:lang="en">Computing / technology policy</skos:prefLabel>
+    <skos:broader rdf:resource="10003456" />
+    <skos:narrower rdf:resource="10003456.10003462.10003463" />
+    <skos:narrower rdf:resource="10003456.10003462.10003477" />
+    <skos:narrower rdf:resource="10003456.10003462.10003480" />
+    <skos:narrower rdf:resource="10003456.10003462.10003487" />
+    <skos:narrower rdf:resource="10003456.10003462.10003544" />
+    <skos:narrower rdf:resource="10003456.10003462.10003561" />
+    <skos:narrower rdf:resource="10003456.10003462.10003574" />
+    <skos:narrower rdf:resource="10003456.10003462.10003588" />
+    <skos:narrower rdf:resource="10003456.10003462.10003602" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003456.10010927">
+    <skos:prefLabel xml:lang="en">User characteristics</skos:prefLabel>
+    <skos:broader rdf:resource="10003456" />
+    <skos:narrower rdf:resource="10003456.10010927.10003611" />
+    <skos:narrower rdf:resource="10003456.10010927.10003612" />
+    <skos:narrower rdf:resource="10003456.10010927.10003613" />
+    <skos:narrower rdf:resource="10003456.10010927.10003614" />
+    <skos:narrower rdf:resource="10003456.10010927.10003616" />
+    <skos:narrower rdf:resource="10003456.10010927.10003618" />
+    <skos:narrower rdf:resource="10003456.10010927.10003619" />
+    <skos:narrower rdf:resource="10003456.10010927.10010930" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003752.10003753">
+    <skos:prefLabel xml:lang="en">Models of computation</skos:prefLabel>
+    <skos:broader rdf:resource="10003752" />
+    <skos:narrower rdf:resource="10003752.10003753.10003754" />
+    <skos:narrower rdf:resource="10003752.10003753.10003757" />
+    <skos:narrower rdf:resource="10003752.10003753.10003758" />
+    <skos:narrower rdf:resource="10003752.10003753.10003759" />
+    <skos:narrower rdf:resource="10003752.10003753.10003760" />
+    <skos:narrower rdf:resource="10003752.10003753.10003761" />
+    <skos:narrower rdf:resource="10003752.10003753.10003765" />
+    <skos:narrower rdf:resource="10003752.10003753.10010622" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003752.10003766">
+    <skos:prefLabel xml:lang="en">Formal languages and automata theory</skos:prefLabel>
+    <skos:broader rdf:resource="10003752" />
+    <skos:narrower rdf:resource="10003752.10003766.10003767" />
+    <skos:narrower rdf:resource="10003752.10003766.10003770" />
+    <skos:narrower rdf:resource="10003752.10003766.10003771" />
+    <skos:narrower rdf:resource="10003752.10003766.10003772" />
+    <skos:narrower rdf:resource="10003752.10003766.10003773" />
+    <skos:narrower rdf:resource="10003752.10003766.10003776" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003752.10003777">
+    <skos:prefLabel xml:lang="en">Computational complexity and cryptography</skos:prefLabel>
+    <skos:broader rdf:resource="10003752" />
+    <skos:narrower rdf:resource="10003752.10003777.10003778" />
+    <skos:narrower rdf:resource="10003752.10003777.10003779" />
+    <skos:narrower rdf:resource="10003752.10003777.10003780" />
+    <skos:narrower rdf:resource="10003752.10003777.10003781" />
+    <skos:narrower rdf:resource="10003752.10003777.10003782" />
+    <skos:narrower rdf:resource="10003752.10003777.10003783" />
+    <skos:narrower rdf:resource="10003752.10003777.10003784" />
+    <skos:narrower rdf:resource="10003752.10003777.10003785" />
+    <skos:narrower rdf:resource="10003752.10003777.10003786" />
+    <skos:narrower rdf:resource="10003752.10003777.10003787" />
+    <skos:narrower rdf:resource="10003752.10003777.10003788" />
+    <skos:narrower rdf:resource="10003752.10003777.10003789" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003752.10003790">
+    <skos:prefLabel xml:lang="en">Logic</skos:prefLabel>
+    <skos:broader rdf:resource="10003752" />
+    <skos:narrower rdf:resource="10003752.10003790.10002990" />
+    <skos:narrower rdf:resource="10003752.10003790.10003792" />
+    <skos:narrower rdf:resource="10003752.10003790.10003793" />
+    <skos:narrower rdf:resource="10003752.10003790.10003794" />
+    <skos:narrower rdf:resource="10003752.10003790.10003795" />
+    <skos:narrower rdf:resource="10003752.10003790.10003796" />
+    <skos:narrower rdf:resource="10003752.10003790.10003797" />
+    <skos:narrower rdf:resource="10003752.10003790.10003798" />
+    <skos:narrower rdf:resource="10003752.10003790.10003799" />
+    <skos:narrower rdf:resource="10003752.10003790.10003800" />
+    <skos:narrower rdf:resource="10003752.10003790.10003801" />
+    <skos:narrower rdf:resource="10003752.10003790.10003806" />
+    <skos:narrower rdf:resource="10003752.10003790.10011119" />
+    <skos:narrower rdf:resource="10003752.10003790.10011192" />
+    <skos:narrower rdf:resource="10003752.10003790.10011740" />
+    <skos:narrower rdf:resource="10003752.10003790.10011741" />
+    <skos:narrower rdf:resource="10003752.10003790.10011742" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003752.10003809">
+    <skos:prefLabel xml:lang="en">Design and analysis of algorithms</skos:prefLabel>
+    <skos:broader rdf:resource="10003752" />
+    <skos:narrower rdf:resource="10003752.10003809.10003635" />
+    <skos:narrower rdf:resource="10003752.10003809.10003636" />
+    <skos:narrower rdf:resource="10003752.10003809.10003716" />
+    <skos:narrower rdf:resource="10003752.10003809.10010031" />
+    <skos:narrower rdf:resource="10003752.10003809.10010047" />
+    <skos:narrower rdf:resource="10003752.10003809.10010052" />
+    <skos:narrower rdf:resource="10003752.10003809.10010055" />
+    <skos:narrower rdf:resource="10003752.10003809.10010170" />
+    <skos:narrower rdf:resource="10003752.10003809.10010172" />
+    <skos:narrower rdf:resource="10003752.10003809.10011254" />
+    <skos:narrower rdf:resource="10003752.10003809.10011778" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003752.10010061">
+    <skos:prefLabel xml:lang="en">Randomness, geometry and discrete structures</skos:prefLabel>
+    <skos:broader rdf:resource="10003752" />
+    <skos:narrower rdf:resource="10003752.10010061.10010062" />
+    <skos:narrower rdf:resource="10003752.10010061.10010063" />
+    <skos:narrower rdf:resource="10003752.10010061.10010064" />
+    <skos:narrower rdf:resource="10003752.10010061.10010065" />
+    <skos:narrower rdf:resource="10003752.10010061.10010066" />
+    <skos:narrower rdf:resource="10003752.10010061.10010067" />
+    <skos:narrower rdf:resource="10003752.10010061.10010068" />
+    <skos:narrower rdf:resource="10003752.10010061.10010069" />
+    <skos:narrower rdf:resource="10003752.10010061.10011795" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003752.10010070">
+    <skos:prefLabel xml:lang="en">Theory and algorithms for application domains</skos:prefLabel>
+    <skos:broader rdf:resource="10003752" />
+    <skos:narrower rdf:resource="10003752.10010070.10010071" />
+    <skos:narrower rdf:resource="10003752.10010070.10010099" />
+    <skos:narrower rdf:resource="10003752.10010070.10010111" />
+    <skos:narrower rdf:resource="10003752.10010070.10011796" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10003752.10010124">
+    <skos:prefLabel xml:lang="en">Semantics and reasoning</skos:prefLabel>
+    <skos:broader rdf:resource="10003752" />
+    <skos:narrower rdf:resource="10003752.10010124.10010125" />
+    <skos:narrower rdf:resource="10003752.10010124.10010131" />
+    <skos:narrower rdf:resource="10003752.10010124.10010138" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010147.10010148">
+    <skos:prefLabel xml:lang="en">Symbolic and algebraic manipulation</skos:prefLabel>
+    <skos:broader rdf:resource="10010147" />
+    <skos:narrower rdf:resource="10010147.10010148.10010149" />
+    <skos:narrower rdf:resource="10010147.10010148.10010162" />
+    <skos:narrower rdf:resource="10010147.10010148.10010164" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010147.10010169">
+    <skos:prefLabel xml:lang="en">Parallel computing methodologies</skos:prefLabel>
+    <skos:broader rdf:resource="10010147" />
+    <skos:narrower rdf:resource="10010147.10010169.10010170" />
+    <skos:narrower rdf:resource="10010147.10010169.10010175" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010147.10010178">
+    <skos:prefLabel xml:lang="en">Artificial intelligence</skos:prefLabel>
+    <skos:broader rdf:resource="10010147" />
+    <skos:narrower rdf:resource="10010147.10010178.10010179" />
+    <skos:narrower rdf:resource="10010147.10010178.10010187" />
+    <skos:narrower rdf:resource="10010147.10010178.10010199" />
+    <skos:narrower rdf:resource="10010147.10010178.10010205" />
+    <skos:narrower rdf:resource="10010147.10010178.10010213" />
+    <skos:narrower rdf:resource="10010147.10010178.10010216" />
+    <skos:narrower rdf:resource="10010147.10010178.10010219" />
+    <skos:narrower rdf:resource="10010147.10010178.10010224" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010147.10010257">
+    <skos:prefLabel xml:lang="en">Machine learning</skos:prefLabel>
+    <skos:broader rdf:resource="10010147" />
+    <skos:narrower rdf:resource="10010147.10010257.10010258" />
+    <skos:narrower rdf:resource="10010147.10010257.10010282" />
+    <skos:narrower rdf:resource="10010147.10010257.10010293" />
+    <skos:narrower rdf:resource="10010147.10010257.10010321" />
+    <skos:narrower rdf:resource="10010147.10010257.10010339" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010147.10010341">
+    <skos:prefLabel xml:lang="en">Modeling and simulation</skos:prefLabel>
+    <skos:broader rdf:resource="10010147" />
+    <skos:narrower rdf:resource="10010147.10010341.10010342" />
+    <skos:narrower rdf:resource="10010147.10010341.10010346" />
+    <skos:narrower rdf:resource="10010147.10010341.10010349" />
+    <skos:narrower rdf:resource="10010147.10010341.10010366" />
+    <skos:narrower rdf:resource="10010147.10010341.10010370" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010147.10010371">
+    <skos:prefLabel xml:lang="en">Computer graphics</skos:prefLabel>
+    <skos:broader rdf:resource="10010147" />
+    <skos:narrower rdf:resource="10010147.10010371.10010352" />
+    <skos:narrower rdf:resource="10010147.10010371.10010372" />
+    <skos:narrower rdf:resource="10010147.10010371.10010382" />
+    <skos:narrower rdf:resource="10010147.10010371.10010387" />
+    <skos:narrower rdf:resource="10010147.10010371.10010395" />
+    <skos:narrower rdf:resource="10010147.10010371.10010396" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010147.10010919">
+    <skos:prefLabel xml:lang="en">Distributed computing methodologies</skos:prefLabel>
+    <skos:broader rdf:resource="10010147" />
+    <skos:narrower rdf:resource="10010147.10010919.10010172" />
+    <skos:narrower rdf:resource="10010147.10010919.10010177" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010147.10011777">
+    <skos:prefLabel xml:lang="en">Concurrent computing methodologies</skos:prefLabel>
+    <skos:broader rdf:resource="10010147" />
+    <skos:narrower rdf:resource="10010147.10011777.10011014" />
+    <skos:narrower rdf:resource="10010147.10011777.10011778" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010405.10003550">
+    <skos:prefLabel xml:lang="en">Electronic commerce</skos:prefLabel>
+    <skos:broader rdf:resource="10010405" />
+    <skos:narrower rdf:resource="10010405.10003550.10003551" />
+    <skos:narrower rdf:resource="10010405.10003550.10003552" />
+    <skos:narrower rdf:resource="10010405.10003550.10003553" />
+    <skos:narrower rdf:resource="10010405.10003550.10003554" />
+    <skos:narrower rdf:resource="10010405.10003550.10003555" />
+    <skos:narrower rdf:resource="10010405.10003550.10003556" />
+    <skos:narrower rdf:resource="10010405.10003550.10003557" />
+    <skos:narrower rdf:resource="10010405.10003550.10003596" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010405.10010406">
+    <skos:prefLabel xml:lang="en">Enterprise computing</skos:prefLabel>
+    <skos:broader rdf:resource="10010405" />
+    <skos:narrower rdf:resource="10010405.10010406.10003228" />
+    <skos:narrower rdf:resource="10010405.10010406.10010412" />
+    <skos:narrower rdf:resource="10010405.10010406.10010417" />
+    <skos:narrower rdf:resource="10010405.10010406.10010421" />
+    <skos:narrower rdf:resource="10010405.10010406.10010422" />
+    <skos:narrower rdf:resource="10010405.10010406.10010423" />
+    <skos:narrower rdf:resource="10010405.10010406.10010424" />
+    <skos:narrower rdf:resource="10010405.10010406.10010425" />
+    <skos:narrower rdf:resource="10010405.10010406.10010426" />
+    <skos:narrower rdf:resource="10010405.10010406.10010427" />
+    <skos:narrower rdf:resource="10010405.10010406.10010428" />
+    <skos:narrower rdf:resource="10010405.10010406.10010429" />
+    <skos:narrower rdf:resource="10010405.10010406.10010430" />
+    <skos:narrower rdf:resource="10010405.10010406.10010431" />
+    <skos:narrower rdf:resource="10010405.10010406.10011731" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010405.10010432">
+    <skos:prefLabel xml:lang="en">Physical sciences and engineering</skos:prefLabel>
+    <skos:broader rdf:resource="10010405" />
+    <skos:narrower rdf:resource="10010405.10010432.10010433" />
+    <skos:narrower rdf:resource="10010405.10010432.10010434" />
+    <skos:narrower rdf:resource="10010405.10010432.10010435" />
+    <skos:narrower rdf:resource="10010405.10010432.10010436" />
+    <skos:narrower rdf:resource="10010405.10010432.10010437" />
+    <skos:narrower rdf:resource="10010405.10010432.10010439" />
+    <skos:narrower rdf:resource="10010405.10010432.10010441" />
+    <skos:narrower rdf:resource="10010405.10010432.10010442" />
+    <skos:narrower rdf:resource="10010405.10010432.10010443" />
+    <skos:narrower rdf:resource="10010405.10010432.10010988" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010405.10010444">
+    <skos:prefLabel xml:lang="en">Life and medical sciences</skos:prefLabel>
+    <skos:broader rdf:resource="10010405" />
+    <skos:narrower rdf:resource="10010405.10010444.10010087" />
+    <skos:narrower rdf:resource="10010405.10010444.10010093" />
+    <skos:narrower rdf:resource="10010405.10010444.10010095" />
+    <skos:narrower rdf:resource="10010405.10010444.10010446" />
+    <skos:narrower rdf:resource="10010405.10010444.10010447" />
+    <skos:narrower rdf:resource="10010405.10010444.10010449" />
+    <skos:narrower rdf:resource="10010405.10010444.10010450" />
+    <skos:narrower rdf:resource="10010405.10010444.10010452" />
+    <skos:narrower rdf:resource="10010405.10010444.10010935" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010405.10010455">
+    <skos:prefLabel xml:lang="en">Law, social and behavioral sciences</skos:prefLabel>
+    <skos:broader rdf:resource="10010405" />
+    <skos:narrower rdf:resource="10010405.10010455.10010456" />
+    <skos:narrower rdf:resource="10010405.10010455.10010458" />
+    <skos:narrower rdf:resource="10010405.10010455.10010459" />
+    <skos:narrower rdf:resource="10010405.10010455.10010460" />
+    <skos:narrower rdf:resource="10010405.10010455.10010461" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010405.10010462">
+    <skos:prefLabel xml:lang="en">Computer forensics</skos:prefLabel>
+    <skos:broader rdf:resource="10010405" />
+    <skos:narrower rdf:resource="10010405.10010462.10010463" />
+    <skos:narrower rdf:resource="10010405.10010462.10010464" />
+    <skos:narrower rdf:resource="10010405.10010462.10010465" />
+    <skos:narrower rdf:resource="10010405.10010462.10010466" />
+    <skos:narrower rdf:resource="10010405.10010462.10010467" />
+    <skos:narrower rdf:resource="10010405.10010462.10010468" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010405.10010469">
+    <skos:prefLabel xml:lang="en">Arts and humanities</skos:prefLabel>
+    <skos:broader rdf:resource="10010405" />
+    <skos:narrower rdf:resource="10010405.10010469.10010470" />
+    <skos:narrower rdf:resource="10010405.10010469.10010471" />
+    <skos:narrower rdf:resource="10010405.10010469.10010472" />
+    <skos:narrower rdf:resource="10010405.10010469.10010473" />
+    <skos:narrower rdf:resource="10010405.10010469.10010474" />
+    <skos:narrower rdf:resource="10010405.10010469.10010475" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010405.10010476">
+    <skos:prefLabel xml:lang="en">Computers in other domains</skos:prefLabel>
+    <skos:broader rdf:resource="10010405" />
+    <skos:narrower rdf:resource="10010405.10010476.10003392" />
+    <skos:narrower rdf:resource="10010405.10010476.10010477" />
+    <skos:narrower rdf:resource="10010405.10010476.10010478" />
+    <skos:narrower rdf:resource="10010405.10010476.10010479" />
+    <skos:narrower rdf:resource="10010405.10010476.10010480" />
+    <skos:narrower rdf:resource="10010405.10010476.10010936" />
+    <skos:narrower rdf:resource="10010405.10010476.10011187" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010405.10010481">
+    <skos:prefLabel xml:lang="en">Operations research</skos:prefLabel>
+    <skos:broader rdf:resource="10010405" />
+    <skos:narrower rdf:resource="10010405.10010481.10003558" />
+    <skos:narrower rdf:resource="10010405.10010481.10010482" />
+    <skos:narrower rdf:resource="10010405.10010481.10010483" />
+    <skos:narrower rdf:resource="10010405.10010481.10010484" />
+    <skos:narrower rdf:resource="10010405.10010481.10010485" />
+    <skos:narrower rdf:resource="10010405.10010481.10010487" />
+    <skos:narrower rdf:resource="10010405.10010481.10010488" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010405.10010489">
+    <skos:prefLabel xml:lang="en">Education</skos:prefLabel>
+    <skos:broader rdf:resource="10010405" />
+    <skos:narrower rdf:resource="10010405.10010489.10003392" />
+    <skos:narrower rdf:resource="10010405.10010489.10010490" />
+    <skos:narrower rdf:resource="10010405.10010489.10010491" />
+    <skos:narrower rdf:resource="10010405.10010489.10010492" />
+    <skos:narrower rdf:resource="10010405.10010489.10010493" />
+    <skos:narrower rdf:resource="10010405.10010489.10010494" />
+    <skos:narrower rdf:resource="10010405.10010489.10010495" />
+    <skos:narrower rdf:resource="10010405.10010489.10010496" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010405.10010497">
+    <skos:prefLabel xml:lang="en">Document management and text processing</skos:prefLabel>
+    <skos:broader rdf:resource="10010405" />
+    <skos:narrower rdf:resource="10010405.10010497.10010498" />
+    <skos:narrower rdf:resource="10010405.10010497.10010500" />
+    <skos:narrower rdf:resource="10010405.10010497.10010504" />
+    <skos:narrower rdf:resource="10010405.10010497.10010510" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010520.10010521">
+    <skos:prefLabel xml:lang="en">Architectures</skos:prefLabel>
+    <skos:broader rdf:resource="10010520" />
+    <skos:narrower rdf:resource="10010520.10010521.10010522" />
+    <skos:narrower rdf:resource="10010520.10010521.10010528" />
+    <skos:narrower rdf:resource="10010520.10010521.10010537" />
+    <skos:narrower rdf:resource="10010520.10010521.10010542" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010520.10010553">
+    <skos:prefLabel xml:lang="en">Embedded and cyber-physical systems</skos:prefLabel>
+    <skos:broader rdf:resource="10010520" />
+    <skos:narrower rdf:resource="10010520.10010553.10003238" />
+    <skos:narrower rdf:resource="10010520.10010553.10010554" />
+    <skos:narrower rdf:resource="10010520.10010553.10010559" />
+    <skos:narrower rdf:resource="10010520.10010553.10010560" />
+    <skos:narrower rdf:resource="10010520.10010553.10010562" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010520.10010570">
+    <skos:prefLabel xml:lang="en">Real-time systems</skos:prefLabel>
+    <skos:broader rdf:resource="10010520" />
+    <skos:narrower rdf:resource="10010520.10010570.10010571" />
+    <skos:narrower rdf:resource="10010520.10010570.10010572" />
+    <skos:narrower rdf:resource="10010520.10010570.10010573" />
+    <skos:narrower rdf:resource="10010520.10010570.10010574" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010520.10010575">
+    <skos:prefLabel xml:lang="en">Dependable and fault-tolerant systems and networks</skos:prefLabel>
+    <skos:broader rdf:resource="10010520" />
+    <skos:narrower rdf:resource="10010520.10010575.10010577" />
+    <skos:narrower rdf:resource="10010520.10010575.10010578" />
+    <skos:narrower rdf:resource="10010520.10010575.10010579" />
+    <skos:narrower rdf:resource="10010520.10010575.10010580" />
+    <skos:narrower rdf:resource="10010520.10010575.10010581" />
+    <skos:narrower rdf:resource="10010520.10010575.10010755" />
+    <skos:narrower rdf:resource="10010520.10010575.10011743" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010583.10010584">
+    <skos:prefLabel xml:lang="en">Printed circuit boards</skos:prefLabel>
+    <skos:broader rdf:resource="10010583" />
+    <skos:narrower rdf:resource="10010583.10010584.10010585" />
+    <skos:narrower rdf:resource="10010583.10010584.10010587" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010583.10010588">
+    <skos:prefLabel xml:lang="en">Communication hardware, interfaces and storage</skos:prefLabel>
+    <skos:broader rdf:resource="10010583" />
+    <skos:narrower rdf:resource="10010583.10010588.10003247" />
+    <skos:narrower rdf:resource="10010583.10010588.10010559" />
+    <skos:narrower rdf:resource="10010583.10010588.10010590" />
+    <skos:narrower rdf:resource="10010583.10010588.10010591" />
+    <skos:narrower rdf:resource="10010583.10010588.10010592" />
+    <skos:narrower rdf:resource="10010583.10010588.10010593" />
+    <skos:narrower rdf:resource="10010583.10010588.10010594" />
+    <skos:narrower rdf:resource="10010583.10010588.10010595" />
+    <skos:narrower rdf:resource="10010583.10010588.10010596" />
+    <skos:narrower rdf:resource="10010583.10010588.10010597" />
+    <skos:narrower rdf:resource="10010583.10010588.10010598" />
+    <skos:narrower rdf:resource="10010583.10010588.10011667" />
+    <skos:narrower rdf:resource="10010583.10010588.10011669" />
+    <skos:narrower rdf:resource="10010583.10010588.10011670" />
+    <skos:narrower rdf:resource="10010583.10010588.10011715" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010583.10010600">
+    <skos:prefLabel xml:lang="en">Integrated circuits</skos:prefLabel>
+    <skos:broader rdf:resource="10010583" />
+    <skos:narrower rdf:resource="10010583.10010600.10010601" />
+    <skos:narrower rdf:resource="10010583.10010600.10010602" />
+    <skos:narrower rdf:resource="10010583.10010600.10010607" />
+    <skos:narrower rdf:resource="10010583.10010600.10010612" />
+    <skos:narrower rdf:resource="10010583.10010600.10010615" />
+    <skos:narrower rdf:resource="10010583.10010600.10010628" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010583.10010633">
+    <skos:prefLabel xml:lang="en">Very large scale integration design</skos:prefLabel>
+    <skos:broader rdf:resource="10010583" />
+    <skos:narrower rdf:resource="10010583.10010633.10010601" />
+    <skos:narrower rdf:resource="10010583.10010633.10010634" />
+    <skos:narrower rdf:resource="10010583.10010633.10010640" />
+    <skos:narrower rdf:resource="10010583.10010633.10010645" />
+    <skos:narrower rdf:resource="10010583.10010633.10010649" />
+    <skos:narrower rdf:resource="10010583.10010633.10010650" />
+    <skos:narrower rdf:resource="10010583.10010633.10010651" />
+    <skos:narrower rdf:resource="10010583.10010633.10010652" />
+    <skos:narrower rdf:resource="10010583.10010633.10010653" />
+    <skos:narrower rdf:resource="10010583.10010633.10010654" />
+    <skos:narrower rdf:resource="10010583.10010633.10010655" />
+    <skos:narrower rdf:resource="10010583.10010633.10010656" />
+    <skos:narrower rdf:resource="10010583.10010633.10010659" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010583.10010662">
+    <skos:prefLabel xml:lang="en">Power and energy</skos:prefLabel>
+    <skos:broader rdf:resource="10010583" />
+    <skos:narrower rdf:resource="10010583.10010662.10010586" />
+    <skos:narrower rdf:resource="10010583.10010662.10010663" />
+    <skos:narrower rdf:resource="10010583.10010662.10010668" />
+    <skos:narrower rdf:resource="10010583.10010662.10010673" />
+    <skos:narrower rdf:resource="10010583.10010662.10010674" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010583.10010682">
+    <skos:prefLabel xml:lang="en">Electronic design automation</skos:prefLabel>
+    <skos:broader rdf:resource="10010583" />
+    <skos:narrower rdf:resource="10010583.10010682.10010684" />
+    <skos:narrower rdf:resource="10010583.10010682.10010689" />
+    <skos:narrower rdf:resource="10010583.10010682.10010690" />
+    <skos:narrower rdf:resource="10010583.10010682.10010696" />
+    <skos:narrower rdf:resource="10010583.10010682.10010697" />
+    <skos:narrower rdf:resource="10010583.10010682.10010705" />
+    <skos:narrower rdf:resource="10010583.10010682.10010712" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010583.10010717">
+    <skos:prefLabel xml:lang="en">Hardware validation</skos:prefLabel>
+    <skos:broader rdf:resource="10010583" />
+    <skos:narrower rdf:resource="10010583.10010717.10010721" />
+    <skos:narrower rdf:resource="10010583.10010717.10010728" />
+    <skos:narrower rdf:resource="10010583.10010717.10010733" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010583.10010737">
+    <skos:prefLabel xml:lang="en">Hardware test</skos:prefLabel>
+    <skos:broader rdf:resource="10010583" />
+    <skos:narrower rdf:resource="10010583.10010737.10010738" />
+    <skos:narrower rdf:resource="10010583.10010737.10010739" />
+    <skos:narrower rdf:resource="10010583.10010737.10010740" />
+    <skos:narrower rdf:resource="10010583.10010737.10010744" />
+    <skos:narrower rdf:resource="10010583.10010737.10010745" />
+    <skos:narrower rdf:resource="10010583.10010737.10010746" />
+    <skos:narrower rdf:resource="10010583.10010737.10010747" />
+    <skos:narrower rdf:resource="10010583.10010737.10010748" />
+    <skos:narrower rdf:resource="10010583.10010737.10010749" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010583.10010750">
+    <skos:prefLabel xml:lang="en">Robustness</skos:prefLabel>
+    <skos:broader rdf:resource="10010583" />
+    <skos:narrower rdf:resource="10010583.10010750.10010751" />
+    <skos:narrower rdf:resource="10010583.10010750.10010758" />
+    <skos:narrower rdf:resource="10010583.10010750.10010762" />
+    <skos:narrower rdf:resource="10010583.10010750.10010769" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10010583.10010786">
+    <skos:prefLabel xml:lang="en">Emerging technologies</skos:prefLabel>
+    <skos:broader rdf:resource="10010583" />
+    <skos:narrower rdf:resource="10010583.10010786.10010787" />
+    <skos:narrower rdf:resource="10010583.10010786.10010792" />
+    <skos:narrower rdf:resource="10010583.10010786.10010799" />
+    <skos:narrower rdf:resource="10010583.10010786.10010805" />
+    <skos:narrower rdf:resource="10010583.10010786.10010808" />
+    <skos:narrower rdf:resource="10010583.10010786.10010809" />
+    <skos:narrower rdf:resource="10010583.10010786.10010810" />
+    <skos:narrower rdf:resource="10010583.10010786.10010811" />
+    <skos:narrower rdf:resource="10010583.10010786.10010812" />
+    <skos:narrower rdf:resource="10010583.10010786.10010813" />
+    <skos:narrower rdf:resource="10010583.10010786.10010817" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10011007.10010940">
+    <skos:prefLabel xml:lang="en">Software organization and properties</skos:prefLabel>
+    <skos:broader rdf:resource="10011007" />
+    <skos:narrower rdf:resource="10011007.10010940.10010941" />
+    <skos:narrower rdf:resource="10011007.10010940.10010971" />
+    <skos:narrower rdf:resource="10011007.10010940.10010992" />
+    <skos:narrower rdf:resource="10011007.10010940.10011003" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10011007.10011006">
+    <skos:prefLabel xml:lang="en">Software notations and tools</skos:prefLabel>
+    <skos:broader rdf:resource="10011007" />
+    <skos:narrower rdf:resource="10011007.10011006.10011008" />
+    <skos:narrower rdf:resource="10011007.10011006.10011039" />
+    <skos:narrower rdf:resource="10011007.10011006.10011041" />
+    <skos:narrower rdf:resource="10011007.10011006.10011050" />
+    <skos:narrower rdf:resource="10011007.10011006.10011060" />
+    <skos:narrower rdf:resource="10011007.10011006.10011066" />
+    <skos:narrower rdf:resource="10011007.10011006.10011071" />
+    <skos:narrower rdf:resource="10011007.10011006.10011072" />
+    <skos:narrower rdf:resource="10011007.10011006.10011073" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10011007.10011074">
+    <skos:prefLabel xml:lang="en">Software creation and management</skos:prefLabel>
+    <skos:broader rdf:resource="10011007" />
+    <skos:narrower rdf:resource="10011007.10011074.10011075" />
+    <skos:narrower rdf:resource="10011007.10011074.10011081" />
+    <skos:narrower rdf:resource="10011007.10011074.10011092" />
+    <skos:narrower rdf:resource="10011007.10011074.10011099" />
+    <skos:narrower rdf:resource="10011007.10011074.10011111" />
+    <skos:narrower rdf:resource="10011007.10011074.10011134" />
+    <skos:narrower rdf:resource="10011007.10011074.10011784" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002944.10011122.10002945">
+    <skos:prefLabel xml:lang="en">Surveys and overviews</skos:prefLabel>
+    <skos:broader rdf:resource="10002944.10011122" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002944.10011122.10002946">
+    <skos:prefLabel xml:lang="en">Reference works</skos:prefLabel>
+    <skos:broader rdf:resource="10002944.10011122" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002944.10011122.10002947">
+    <skos:prefLabel xml:lang="en">General conference proceedings</skos:prefLabel>
+    <skos:broader rdf:resource="10002944.10011122" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002944.10011122.10002948">
+    <skos:prefLabel xml:lang="en">Biographies</skos:prefLabel>
+    <skos:broader rdf:resource="10002944.10011122" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002944.10011122.10002949">
+    <skos:prefLabel xml:lang="en">General literature</skos:prefLabel>
+    <skos:broader rdf:resource="10002944.10011122" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002944.10011122.10003459">
+    <skos:prefLabel xml:lang="en">Computing standards, RFCs and guidelines</skos:prefLabel>
+    <skos:broader rdf:resource="10002944.10011122" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002944.10011123.10010577">
+    <skos:prefLabel xml:lang="en">Reliability</skos:prefLabel>
+    <skos:broader rdf:resource="10002944.10011123" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002944.10011123.10010912">
+    <skos:prefLabel xml:lang="en">Empirical studies</skos:prefLabel>
+    <skos:broader rdf:resource="10002944.10011123" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002944.10011123.10010916">
+    <skos:prefLabel xml:lang="en">Measurement</skos:prefLabel>
+    <skos:broader rdf:resource="10002944.10011123" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002944.10011123.10011124">
+    <skos:prefLabel xml:lang="en">Metrics</skos:prefLabel>
+    <skos:broader rdf:resource="10002944.10011123" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002944.10011123.10011130">
+    <skos:prefLabel xml:lang="en">Evaluation</skos:prefLabel>
+    <skos:broader rdf:resource="10002944.10011123" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002944.10011123.10011131">
+    <skos:prefLabel xml:lang="en">Experimentation</skos:prefLabel>
+    <skos:broader rdf:resource="10002944.10011123" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002944.10011123.10011133">
+    <skos:prefLabel xml:lang="en">Estimation</skos:prefLabel>
+    <skos:broader rdf:resource="10002944.10011123" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002944.10011123.10011673">
+    <skos:prefLabel xml:lang="en">Design</skos:prefLabel>
+    <skos:broader rdf:resource="10002944.10011123" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002944.10011123.10011674">
+    <skos:prefLabel xml:lang="en">Performance</skos:prefLabel>
+    <skos:broader rdf:resource="10002944.10011123" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002944.10011123.10011675">
+    <skos:prefLabel xml:lang="en">Validation</skos:prefLabel>
+    <skos:broader rdf:resource="10002944.10011123" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002944.10011123.10011676">
+    <skos:prefLabel xml:lang="en">Verification</skos:prefLabel>
+    <skos:broader rdf:resource="10002944.10011123" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003624.10003625">
+    <skos:prefLabel xml:lang="en">Combinatorics</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003624" />
+    <skos:narrower rdf:resource="10002950.10003624.10003625.10003626" />
+    <skos:narrower rdf:resource="10002950.10003624.10003625.10003627" />
+    <skos:narrower rdf:resource="10002950.10003624.10003625.10003628" />
+    <skos:narrower rdf:resource="10002950.10003624.10003625.10003629" />
+    <skos:narrower rdf:resource="10002950.10003624.10003625.10003630" />
+    <skos:narrower rdf:resource="10002950.10003624.10003625.10003631" />
+    <skos:narrower rdf:resource="10002950.10003624.10003625.10003632" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003624.10003633">
+    <skos:prefLabel xml:lang="en">Graph theory</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003624" />
+    <skos:narrower rdf:resource="10002950.10003624.10003633.10003634" />
+    <skos:narrower rdf:resource="10002950.10003624.10003633.10003637" />
+    <skos:narrower rdf:resource="10002950.10003624.10003633.10003638" />
+    <skos:narrower rdf:resource="10002950.10003624.10003633.10003639" />
+    <skos:narrower rdf:resource="10002950.10003624.10003633.10003640" />
+    <skos:narrower rdf:resource="10002950.10003624.10003633.10003641" />
+    <skos:narrower rdf:resource="10002950.10003624.10003633.10003642" />
+    <skos:narrower rdf:resource="10002950.10003624.10003633.10003643" />
+    <skos:narrower rdf:resource="10002950.10003624.10003633.10003644" />
+    <skos:narrower rdf:resource="10002950.10003624.10003633.10003645" />
+    <skos:narrower rdf:resource="10002950.10003624.10003633.10003646" />
+    <skos:narrower rdf:resource="10002950.10003624.10003633.10003647" />
+    <skos:narrower rdf:resource="10002950.10003624.10003633.10010917" />
+    <skos:narrower rdf:resource="10002950.10003624.10003633.10010918" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003648.10003649">
+    <skos:prefLabel xml:lang="en">Probabilistic representations</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003648" />
+    <skos:narrower rdf:resource="10002950.10003648.10003649.10003650" />
+    <skos:narrower rdf:resource="10002950.10003648.10003649.10003651" />
+    <skos:narrower rdf:resource="10002950.10003648.10003649.10003652" />
+    <skos:narrower rdf:resource="10002950.10003648.10003649.10003653" />
+    <skos:narrower rdf:resource="10002950.10003648.10003649.10003654" />
+    <skos:narrower rdf:resource="10002950.10003648.10003649.10003655" />
+    <skos:narrower rdf:resource="10002950.10003648.10003649.10003656" />
+    <skos:narrower rdf:resource="10002950.10003648.10003649.10003657" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003648.10003662">
+    <skos:prefLabel xml:lang="en">Probabilistic inference problems</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003648" />
+    <skos:narrower rdf:resource="10002950.10003648.10003662.10003663" />
+    <skos:narrower rdf:resource="10002950.10003648.10003662.10003664" />
+    <skos:narrower rdf:resource="10002950.10003648.10003662.10003665" />
+    <skos:narrower rdf:resource="10002950.10003648.10003662.10003666" />
+    <skos:narrower rdf:resource="10002950.10003648.10003662.10003667" />
+    <skos:narrower rdf:resource="10002950.10003648.10003662.10003669" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003648.10003670">
+    <skos:prefLabel xml:lang="en">Probabilistic reasoning algorithms</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003648" />
+    <skos:narrower rdf:resource="10002950.10003648.10003670.10003673" />
+    <skos:narrower rdf:resource="10002950.10003648.10003670.10003674" />
+    <skos:narrower rdf:resource="10002950.10003648.10003670.10003675" />
+    <skos:narrower rdf:resource="10002950.10003648.10003670.10003676" />
+    <skos:narrower rdf:resource="10002950.10003648.10003670.10003677" />
+    <skos:narrower rdf:resource="10002950.10003648.10003670.10003682" />
+    <skos:narrower rdf:resource="10002950.10003648.10003670.10003683" />
+    <skos:narrower rdf:resource="10002950.10003648.10003670.10003684" />
+    <skos:narrower rdf:resource="10002950.10003648.10003670.10003687" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003648.10003671">
+    <skos:prefLabel xml:lang="en">Probabilistic algorithms</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003648" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003648.10003688">
+    <skos:prefLabel xml:lang="en">Statistical paradigms</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003648" />
+    <skos:narrower rdf:resource="10002950.10003648.10003688.10003689" />
+    <skos:narrower rdf:resource="10002950.10003648.10003688.10003690" />
+    <skos:narrower rdf:resource="10002950.10003648.10003688.10003691" />
+    <skos:narrower rdf:resource="10002950.10003648.10003688.10003693" />
+    <skos:narrower rdf:resource="10002950.10003648.10003688.10003694" />
+    <skos:narrower rdf:resource="10002950.10003648.10003688.10003695" />
+    <skos:narrower rdf:resource="10002950.10003648.10003688.10003696" />
+    <skos:narrower rdf:resource="10002950.10003648.10003688.10003697" />
+    <skos:narrower rdf:resource="10002950.10003648.10003688.10003698" />
+    <skos:narrower rdf:resource="10002950.10003648.10003688.10003699" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003648.10003700">
+    <skos:prefLabel xml:lang="en">Stochastic processes</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003648" />
+    <skos:narrower rdf:resource="10002950.10003648.10003700.10003701" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003648.10003702">
+    <skos:prefLabel xml:lang="en">Nonparametric statistics</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003648" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003648.10003703">
+    <skos:prefLabel xml:lang="en">Distribution functions</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003648" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003648.10003704">
+    <skos:prefLabel xml:lang="en">Multivariate statistics</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003648" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003705.10003707">
+    <skos:prefLabel xml:lang="en">Solvers</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003705" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003705.10003708">
+    <skos:prefLabel xml:lang="en">Statistical software</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003705" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003705.10011686">
+    <skos:prefLabel xml:lang="en">Mathematical software performance</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003705" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003712.10003713">
+    <skos:prefLabel xml:lang="en">Coding theory</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003712" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003714.10003715">
+    <skos:prefLabel xml:lang="en">Numerical analysis</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003714" />
+    <skos:narrower rdf:resource="10002950.10003714.10003715.10003717" />
+    <skos:narrower rdf:resource="10002950.10003714.10003715.10003718" />
+    <skos:narrower rdf:resource="10002950.10003714.10003715.10003719" />
+    <skos:narrower rdf:resource="10002950.10003714.10003715.10003720" />
+    <skos:narrower rdf:resource="10002950.10003714.10003715.10003721" />
+    <skos:narrower rdf:resource="10002950.10003714.10003715.10003722" />
+    <skos:narrower rdf:resource="10002950.10003714.10003715.10003724" />
+    <skos:narrower rdf:resource="10002950.10003714.10003715.10003725" />
+    <skos:narrower rdf:resource="10002950.10003714.10003715.10003726" />
+    <skos:narrower rdf:resource="10002950.10003714.10003715.10003748" />
+    <skos:narrower rdf:resource="10002950.10003714.10003715.10003749" />
+    <skos:narrower rdf:resource="10002950.10003714.10003715.10003750" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003714.10003716">
+    <skos:prefLabel xml:lang="en">Mathematical optimization</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003714" />
+    <skos:narrower rdf:resource="10002950.10003714.10003716.10011136" />
+    <skos:narrower rdf:resource="10002950.10003714.10003716.10011138" />
+    <skos:narrower rdf:resource="10002950.10003714.10003716.10011141" />
+    <skos:narrower rdf:resource="10002950.10003714.10003716.10011804" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003714.10003727">
+    <skos:prefLabel xml:lang="en">Differential equations</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003714" />
+    <skos:narrower rdf:resource="10002950.10003714.10003727.10003728" />
+    <skos:narrower rdf:resource="10002950.10003714.10003727.10003729" />
+    <skos:narrower rdf:resource="10002950.10003714.10003727.10003730" />
+    <skos:narrower rdf:resource="10002950.10003714.10003727.10003731" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003714.10003732">
+    <skos:prefLabel xml:lang="en">Calculus</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003714" />
+    <skos:narrower rdf:resource="10002950.10003714.10003732.10003733" />
+    <skos:narrower rdf:resource="10002950.10003714.10003732.10003734" />
+    <skos:narrower rdf:resource="10002950.10003714.10003732.10003735" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003714.10003736">
+    <skos:prefLabel xml:lang="en">Functional analysis</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003714" />
+    <skos:narrower rdf:resource="10002950.10003714.10003736.10003737" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003714.10003738">
+    <skos:prefLabel xml:lang="en">Integral equations</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003714" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003714.10003739">
+    <skos:prefLabel xml:lang="en">Nonlinear equations</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003714" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003714.10003740">
+    <skos:prefLabel xml:lang="en">Quadrature</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003714" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003741.10003732">
+    <skos:prefLabel xml:lang="en">Calculus</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003741" />
+    <skos:narrower rdf:resource="10002950.10003741.10003732.10003733" />
+    <skos:narrower rdf:resource="10002950.10003741.10003732.10003734" />
+    <skos:narrower rdf:resource="10002950.10003741.10003732.10003735" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003741.10003742">
+    <skos:prefLabel xml:lang="en">Topology</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003741" />
+    <skos:narrower rdf:resource="10002950.10003741.10003742.10003743" />
+    <skos:narrower rdf:resource="10002950.10003741.10003742.10003744" />
+    <skos:narrower rdf:resource="10002950.10003741.10003742.10003745" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950.10003741.10003746">
+    <skos:prefLabel xml:lang="en">Continuous functions</skos:prefLabel>
+    <skos:broader rdf:resource="10002950.10003741" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002951.10002952.10002953">
+    <skos:prefLabel xml:lang="en">Database design and models</skos:prefLabel>
+    <skos:broader rdf:resource="10002951.10002952" />
+    <skos:narrower rdf:resource="10002951.10002952.10002953.10002955" />
+    <skos:narrower rdf:resource="10002951.10002952.10002953.10002959" />
+    <skos:narrower rdf:resource="10002951.10002952.10002953.10010146" />
+    <skos:narrower rdf:resource="10002951.10002952.10002953.10010819" />
+    <skos:narrower rdf:resource="10002951.10002952.10002953.10010820" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002951.10002952.10002971">
+    <skos:prefLabel xml:lang="en">Data structures</skos:prefLabel>
+    <skos:broader rdf:resource="10002951.10002952" />
+    <skos:narrower rdf:resource="10002951.10002952.10002971.10003450" />
+    <skos:narrower rdf:resource="10002951.10002952.10002971.10003451" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002951.10002952.10003190">
+    <skos:prefLabel xml:lang="en">Database management system engines</skos:prefLabel>
+    <skos:broader rdf:resource="10002951.10002952" />
+    <skos:narrower rdf:resource="10002951.10002952.10003190.10003191" />
+    <skos:narrower rdf:resource="10002951.10002952.10003190.10003192" />
+    <skos:narrower rdf:resource="10002951.10002952.10003190.10003193" />
+    <skos:narrower rdf:resource="10002951.10002952.10003190.10003194" />
+    <skos:narrower rdf:resource="10002951.10002952.10003190.10003195" />
+    <skos:narrower rdf:resource="10002951.10002952.10003190.10003201" />
+    <skos:narrower rdf:resource="10002951.10002952.10003190.10003205" />
+    <skos:narrower rdf:resource="10002951.10002952.10003190.10003206" />
+    <skos:narrower rdf:resource="10002951.10002952.10003190.10010832" />
+    <skos:narrower rdf:resource="10002951.10002952.10003190.10010840" />
+    <skos:narrower rdf:resource="10002951.10002952.10003190.10010841" />
+    <skos:narrower rdf:resource="10002951.10002952.10003190.10010842" />
+  </skos:Concept>
+</rdf:RDF>

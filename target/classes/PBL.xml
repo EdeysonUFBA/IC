@@ -1,0 +1,134 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:fpk="https://www.semanticweb.org/cc2020/fpk#"
+    xmlns:cc2012="http://www.acm.org/about/class/2012#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:lomc="http://eduknow.org/Competencias#"
+    xmlns:lom="http://ltsc.ieee.org/rdf/lomv1p0/lom#">
+  <lom:learningObject rdf:about="https://eduknow.org/IMC.md">
+    <lom:aggregationLevel rdf:resource="http://ltsc.ieee.org/rdf/lomv1p0/vocabulary#AggregationLeve-l"/>
+    <dc:title>Problema : Índice de Massa Corporal.</dc:title>
+    <lom:keyword>Expressão Regular</lom:keyword>
+    <lom:learningResourceType>problem statement</lom:learningResourceType>
+    <lom:keyword>Autômato Finito</lom:keyword>
+    <lom:educationalDescription>Competency Description</lom:educationalDescription>
+    <lomc:educationalCompetency>
+      <lomc:AtomicCompetence rdf:about="https://eduknow.org/IMC.md#Cb">
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/IMC.md#CbKS01">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:parseType="Resource">
+              <cc2012:category>10003120.10003121</cc2012:category>
+              <cc2012:label>Human computer interaction</cc2012:label>
+            </lomc:knowledge>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        <lomc:hasDisposition rdf:resource="http://eduknow.org/Competencias#Responsável"/>
+        <lomc:hasDisposition rdf:resource="http://eduknow.org/Competencias#Inventivo"/>
+        <lomc:hasDisposition rdf:resource="http://eduknow.org/Competencias#Meticuloso"/>
+        <lomc:hasDisposition rdf:resource="http://eduknow.org/Competencias#Colaborativo"/>
+        <lomc:competenceStatement xml:lang="pt">Desenvolver, em grupo, uma interface simples para interação com usuários.</lomc:competenceStatement>
+      </lomc:AtomicCompetence>
+    </lomc:educationalCompetency>
+    <dc:date>2022/09/21</dc:date>
+    <lomc:educationalCompetency>
+      <lomc:AtomicCompetence rdf:about="https://eduknow.org/IMC.md#Cc">
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/IMC.md#CcKS01">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Creating"/>
+            <lomc:knowledge rdf:parseType="Resource">
+              <fpk:label>Written Communication</fpk:label>
+            </lomc:knowledge>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        <lomc:hasDisposition rdf:resource="http://eduknow.org/Competencias#Responsável"/>
+        <lomc:hasDisposition rdf:resource="http://eduknow.org/Competencias#Meticuloso"/>
+        <lomc:hasDisposition rdf:resource="http://eduknow.org/Competencias#Colaborativo"/>
+        <lomc:competenceStatement xml:lang="pt">Escrever, em grupo, um relatório técnico</lomc:competenceStatement>
+      </lomc:AtomicCompetence>
+    </lomc:educationalCompetency>
+    <dc:creator rdf:parseType="Resource">
+      <vcard:EMAIL>gavaza@gmail.com</vcard:EMAIL>
+      <vcard:ORG>http://www.ufba.br</vcard:ORG>
+      <vcard:FN>Luiz Gavaza</vcard:FN>
+    </dc:creator>
+    <lom:copyrightAndOtherRestrictions>Editor de texto</lom:copyrightAndOtherRestrictions>
+    <lom:otherPlatformRequirements>Editor de texto</lom:otherPlatformRequirements>
+    <lomc:educationalCompetency>
+      <lomc:AtomicCompetence rdf:about="https://eduknow.org/IMC.md#Ca">
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/IMC.md#CaKS01">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:parseType="Resource">
+              <cc2012:category>10011007.10011006.10011008</cc2012:category>
+              <cc2012:label>General programming languages</cc2012:label>
+            </lomc:knowledge>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        <lomc:hasDisposition rdf:resource="http://eduknow.org/Competencias#Responsável"/>
+        <lomc:hasDisposition rdf:resource="http://eduknow.org/Competencias#Proativo"/>
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/IMC.md#CaKS03">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Understanding"/>
+            <lomc:knowledge rdf:parseType="Resource">
+              <cc2012:category>10011007.10011074.10011075.10011076</cc2012:category>
+              <cc2012:label>Requirements analysis</cc2012:label>
+            </lomc:knowledge>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        <lomc:hasDisposition rdf:resource="http://eduknow.org/Competencias#Colaborativo"/>
+        <lomc:hasDisposition rdf:resource="http://eduknow.org/Competencias#Inventivo"/>
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/IMC.md#CaKS05">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:parseType="Resource">
+              <fpk:label>Analytical and Critical Thinking</fpk:label>
+            </lomc:knowledge>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        <lomc:hasDisposition rdf:resource="http://eduknow.org/Competencias#Meticuloso"/>
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/IMC.md#CaKS02">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:parseType="Resource">
+              <cc2012:category>10003752.10003790.10003806</cc2012:category>
+              <cc2012:label>Programming logic</cc2012:label>
+            </lomc:knowledge>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+        <lomc:competenceStatement xml:lang="pt">Codificar, em grupo, uma tarefa simples numa linguagem de programação.</lomc:competenceStatement>
+        <lomc:knowledgeSkill>
+          <rdf:Description rdf:about="https://eduknow.org/IMC.md#CaKS04">
+            <lomc:skill rdf:resource="http://eduknow.org/Competencias#Applying"/>
+            <lomc:knowledge rdf:parseType="Resource">
+              <fpk:label>Mathematics and Statistics</fpk:label>
+            </lomc:knowledge>
+          </rdf:Description>
+        </lomc:knowledgeSkill>
+      </lomc:AtomicCompetence>
+    </lomc:educationalCompetency>
+    <dc:creator rdf:parseType="Resource">
+      <vcard:EMAIL>edeysongomes@ufba.br</vcard:EMAIL>
+      <vcard:ORG>http://www.ufba.br</vcard:ORG>
+      <vcard:FN>Edeyson Gomes</vcard:FN>
+    </dc:creator>
+    <lom:educationalContext>higher education</lom:educationalContext>
+    <lom:metaMetadataLanguage>pt</lom:metaMetadataLanguage>
+    <dc:creator rdf:parseType="Resource">
+      <vcard:EMAIL>laisns@ufba.br</vcard:EMAIL>
+      <vcard:ORG>http://www.ufba.br</vcard:ORG>
+      <vcard:FN>Laís Salvador</vcard:FN>
+    </dc:creator>
+    <lom:cost>no</lom:cost>
+    <dc:language>pt</dc:language>
+    <lom:structure rdf:resource="http://ltsc.ieee.org/rdf/lomv1p0/vocabulary#Structure-atomic"/>
+    <dc:creator rdf:parseType="Resource">
+      <vcard:EMAIL>jessicasantana@ufba.br</vcard:EMAIL>
+      <vcard:ORG>http://www.ufba.br</vcard:ORG>
+      <vcard:FN>Jéssica Santana</vcard:FN>
+    </dc:creator>
+    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/3.0/</dc:rights>
+    <lom:keyword>PBL</lom:keyword>
+  </lom:learningObject>
+</rdf:RDF>

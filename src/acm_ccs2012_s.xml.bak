@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF 
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+	xmlns:xml="http://www.w3.org/XML/1998/namespace" 
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#" 
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+	
+  <skos:ConceptScheme rdf:about="ccs2012">
+    <skos:hasTopConcept rdf:resource="10010405" />
+    <skos:hasTopConcept rdf:resource="10010520" />
+    <skos:hasTopConcept rdf:resource="10010583" />
+    <skos:hasTopConcept rdf:resource="10011007" />
+    <skos:hasTopConcept rdf:resource="10002944" />
+    <skos:hasTopConcept rdf:resource="10002950" />
+    <skos:hasTopConcept rdf:resource="10002951" />
+    <skos:hasTopConcept rdf:resource="10002978" />
+    <skos:hasTopConcept rdf:resource="10003033" />
+    <skos:hasTopConcept rdf:resource="10003120" />
+    <skos:hasTopConcept rdf:resource="10003456" />
+    <skos:hasTopConcept rdf:resource="10003752" />
+    <skos:hasTopConcept rdf:resource="10010147" />
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="10002944">
+    <skos:prefLabel xml:lang="en">General and reference</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="ccs2012" />
+    <skos:narrower rdf:resource="10002944.10011122" />
+    <skos:narrower rdf:resource="10002944.10011123" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002950">
+    <skos:prefLabel xml:lang="en">Mathematics of computing</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="ccs2012" />
+    <skos:narrower rdf:resource="10002950.10003624" />
+    <skos:narrower rdf:resource="10002950.10003648" />
+    <skos:narrower rdf:resource="10002950.10003705" />
+    <skos:narrower rdf:resource="10002950.10003712" />
+    <skos:narrower rdf:resource="10002950.10003714" />
+    <skos:narrower rdf:resource="10002950.10003741" />
+  </skos:Concept>
+  <skos:Concept rdf:about="10002951">
+    <skos:prefLabel xml:lang="en">Information systems</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="ccs2012" />
+    <skos:narrower rdf:resource="10002951.10002952" />
+    <skos:narrower rdf:resource="10002951.10003152" />
+    <skos:narrower rdf:resource="10002951.10003227" />
+    <skos:narrower rdf:resource="10002951.10003260" />
+    <skos:narrower rdf:resource="10002951.10003317" />
+  </skos:Concept>
+</rdf:RDF>

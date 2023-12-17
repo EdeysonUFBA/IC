@@ -1,0 +1,38 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix acm: <http://www.acm.org/ccs#> .
+
+acm:CCSCategory a skos:Concept ;
+    skos:prefLabel "Categoria CCS" ;
+    skos:notation "CCSCategory" ;
+    skos:hasTopConcept acm:CCSTopCategory ;
+    skos:inScheme acm:CCSScheme .
+
+acm:CCSTopCategory a skos:Concept ;
+    skos:prefLabel "Categoria CCS Raiz" ;
+    skos:notation "CCSTopCategory" ;
+    skos:topConceptOf acm:CCSCategory .
+
+acm:hasCCSCode a rdf:Property ;
+    rdfs:label "Tem Código CCS" ;
+    rdfs:domain acm:CCSCategory ;
+    rdfs:range xsd:string .
+
+acm:hasTitle a rdf:Property ;
+    rdfs:label "Tem Título" ;
+    rdfs:domain acm:CCSCategory ;
+    rdfs:range xsd:string .
+
+acm:hasDescription a rdf:Property ;
+    rdfs:label "Tem Descrição" ;
+    rdfs:domain acm:CCSCategory ;
+    rdfs:range xsd:string .
+
+acm:hasParentCategory a rdf:Property ;
+    rdfs:label "Tem Categoria Pai" ;
+    rdfs:domain acm:CCSCategory ;
+    rdfs:range acm:CCSCategory .
+
+acm:hasChildCategory a rdf:Property ;
+    rdfs:label "Tem Categoria Filha" ;
+    rdfs:domain acm:CCSCategory ;
+    rdfs:range acm:CCSCategory .

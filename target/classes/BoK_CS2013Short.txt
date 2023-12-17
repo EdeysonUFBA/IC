@@ -1,0 +1,711 @@
+{Algorithms and Complexity (AL)}
+
+Algorithms are fundamental to computer science and software engineering. The real-world performance of any software system depends on: (1) the algorithms chosen and (2) the suitability and efficiency of the various layers of implementation. Good algorithm design is therefore crucial for the performance of all software systems. Moreover, the study of algorithms provides insight in the intrinsic nature of the problem as well as possible solution techniques independent of programming language, programming paradigm, computer hardware, or any other implementation aspect.
+
+An important part of computing is the ability to select algorithms appropriate to particular purposes and to apply them, recognizing the possibility that no suitable algorithm may exist. This facility relies on understanding the range of algorithms that address an important set of well-defined problems, recognizing their strengths and weaknesses, and their suitability in particular contexts. Efficiency is a pervasive theme throughout this area.
+
+This knowledge area defines the central concepts and skills required to design, implement, and analyze algorithms for solving problems. Algorithms are essential in all advanced areas of computer science: artificial intelligence, databases, distributed computing, graphics, networking, operating systems, programming languages, security, and son. Algorithms that have specific utility in each of these are listed in the relevant knowledge areas. Cryptography, for example, appears in the new Knowledge Area on Information Assurance and Security (IAS), while parallel and distributed algorithms appear the Knowledge Area in Parallel and Distributed Computing (PD).
+
+As with all knowledge areas, the order of topics and their groupings do not necessarily correlate ta specific order of presentation. Different programs will teach the topics in different courses and should do so in the order they believe is most appropriate for their students.
+
+
+AL/Basic Analysis
+
+Topics:
+
+[Core-Tier1]
+
+ Differences among best, expected, and worst case behaviors of an algorithm
+
+ Asymptotic analysis of upper and expected complexity bounds
+
+ Big notation: formal definition
+
+ Complexity classes, such as constant, logarithmic, linear, quadratic, and exponential
+
+ Empirical measurements of performance
+
+ Time and space trade-offs in algorithms
+
+[Core-Tier2]
+
+ Big notation: use
+
+ Little o, big omega and big theta notation
+
+ Recurrence relations
+
+ Analysis of iterative and recursive algorithms
+
+ Some version of a Master Theorem
+
+Learning Outcomes:
+
+[Core-Tier1]
+
+ Explain what is meant by 'best', 'expected', and 'worst' case behavior of an algorithm. [Familiarity]
+ In the context of specific algorithms, identify the characteristics of data and/or other conditions or assumptions that lead to different behaviors. [Assessment]
+ Determine informally the time and space complexity of simple algorithms. [Usage]
+ State the formal definition of big O. [Familiarity]
+ List and contrast standard complexity classes. [Familiarity]
+ Perform empirical studies to validate hypotheses about runtime stemming from mathematical analysis. Run algorithms on input of various sizes and compare performance. [Assessment]
+ Give examples that illustrate time-space trade-offs of algorithms. [Familiarity]
+
+[Core-Tier2]
+
+ Use big notation formally to give asymptotic upper bounds on time and space complexity of algorithms. [Usage]
+ Use big notation formally to give expected case bounds on time complexity of algorithms. [Usage]
+ Explain the use of big omega, big theta, and little notation to describe the amount of work done by an algorithm. [Familiarity]
+ Use recurrence relations to determine the time complexity of recursively defined algorithms. [Usage]
+ Solve elementary recurrence relations, e.g., using some form of a Master Theorem. [Usage]
+
+
+
+
+
+
+AL/Algorithmic Strategies
+
+Topics:
+
+[Core-Tier1]
+
+ Brute-force algorithms
+
+ Greedy algorithms
+
+ Divide-and-conquer (cross-reference SDF/Algorithms and Design/Problem-solving strategies)
+
+ Recursive backtracking
+
+ Dynamic Programming
+
+[Core-Tier2]
+
+ Branch-and-bound
+
+ Heuristics
+
+ Reduction: transform-and-conquer
+
+Learning Outcomes:
+
+[Core-Tier1]
+
+ For each of the strategies (brute-force, greedy, divide-and-conquer, recursive backtracking, and dynamic programming), identify a practical example to which it would apply. [Familiarity]
+ Use a greedy approach to solve an appropriate problem and determine if the greedy rule chosen leads tan optimal solution. [Assessment]
+ Use a divide-and-conquer algorithm to solve an appropriate problem. [Usage]
+ Use recursive backtracking to solve a problem such as navigating a maze. [Usage]
+ Use dynamic programming to solve an appropriate problem. [Usage]
+ Determine an appropriate algorithmic approach ta problem. [Assessment]
+
+[Core-Tier2]
+
+ Describe various heuristic problem-solving methods. [Familiarity]
+ Use a heuristic approach to solve an appropriate problem. [Usage]
+ Describe the trade-offs between brute force and heuristic strategies. [Assessment]
+ Describe how a branch-and-bound approach may be used to improve the performance of a heuristic method. [Familiarity]
+
+
+
+
+
+
+
+AL/Fundamental Data Structures and Algorithms 
+
+This knowledge unit builds directly on the foundation provided by Software Development Fundamentals (SDF), particularly the material in SDF/Fundamental Data Structures and SDF/Algorithms and Design.
+
+Topics:
+
+[Core-Tier1]
+
+ Simple numerical algorithms, such as computing the average of a list of numbers, finding the min, max, and mode in a list, approximating the square root of a number, or finding the greatest common divisor
+ 
+ Sequential and binary search algorithms
+
+ Worst case quadratic sorting algorithms (selection, insertion)
+
+ Worst or average case O(N log N) sorting algorithms (quicksort, heapsort, mergesort)
+
+ Hash tables, including strategies for avoiding and resolving collisions
+
+ Binary search trees
+ - Common operations on binary search trees such as select min, max, insert, delete, iterate over tree
+ 
+ Graphs and graph algorithms
+  - Representations of graphs (e.g., adjacency list, adjacency matrix)
+ - Depth-first and breadth-first traversals
+
+[Core-Tier2]
+
+ Heaps
+
+ Graphs and graph algorithms
+ - Shortest-path algorithms (Dijkstra’s and Floyd’s algorithms) 
+ - Minimum spanning tree (Prim’s and Kruskal’s algorithms)
+
+ Pattern matching and string/text algorithms (e.g., substring matching, regular expression matching, longest common subsequence algorithms)
+
+Learning Outcomes:
+
+[Core-Tier1]
+ Implement basic numerical algorithms. [Usage]
+ Implement simple search algorithms and explain the differences in their time complexities. [Assessment]
+ Be able to implement common quadratic and O(N log N) sorting algorithms. [Usage]
+ Describe the implementation of hash tables, including collision avoidance and resolution. [Familiarity]
+ Discuss the runtime and memory efficiency of principal algorithms for sorting, searching, and hashing. [Familiarity]
+ Discuss factors other than computational efficiency that influence the choice of algorithms, such as programming time, maintainability, and the use of application-specific patterns in the input data. [Familiarity]
+ Explain how tree balance affects the efficiency of various binary search tree operations. [Familiarity]
+ Solve problems using fundamental graph algorithms, including depth-first and breadth-first search. [Usage]
+ Demonstrate the ability to evaluate algorithms, to select from a range of possible options, to provide justification for that selection, and to implement the algorithm in a particular context. [Assessment]
+
+[Core-Tier2]
+
+ Describe the heap property and the use of heaps as an implementation of priority queues. [Familiarity]
+ Solve problems using graph algorithms, including single-source and all-pairs shortest paths, and at least one minimum spanning tree algorithm. [Usage]
+ Trace and/or implement a string-matching algorithm. [Usage]
+
+
+
+
+
+
+AL/Basic Automata Computability and Complexity 
+
+Topics:
+
+[Core-Tier1]
+
+ Finite-state machines
+
+ Regular expressions
+
+ The halting problem
+
+[Core-Tier2]
+
+ Context-free grammars (cross-reference PL/Syntax Analysis)
+
+ Introduction to the P and NP classes and the P vs. NP problem
+
+ Introduction to the NP-complete class and exemplary NP-complete problems (e.g., SAT, Knapsack)
+
+Learning Outcomes:
+
+[Core-Tier1]
+
+ Discuss the concept of finite state machines. [Familiarity]
+ Design a deterministic finite state machine to accept a specified language. [Usage]
+ Generate a regular expression to represent a specified language. [Usage]
+ Explain why the halting problem has no algorithmic solution. [Familiarity]
+
+[Core-Tier2]
+
+ Design a context-free grammar to represent a specified language. [Usage]
+ Define the classes P and NP. [Familiarity]
+ Explain the significance of NP-completeness. [Familiarity]
+
+
+
+
+
+AL/Advanced Computational Complexity 
+
+[Elective]
+
+Topics:
+
+ Review of the classes P and NP; introduce P-space and EXP
+
+ Polynomial hierarchy
+
+ NP-completeness (Cook’s theorem)
+
+ Classic NP-complete problems
+
+ Reduction Techniques
+
+Learning Outcomes:
+
+ Define the classes P and NP. (Alsappears in AL/Basic Automata, Computability, and Complexity). [Familiarity]
+ Define the P-space class and its relation to the EXP class. [Familiarity]
+ Explain the significance of NP-completeness. (Alsappears in AL/Basic Automata, Computability, and Complexity). [Familiarity]
+ Provide examples of classic NP-complete problems. [Familiarity]
+ Prove that a problem is NP-complete by reducing a classic known NP-complete problem tit. [Usage]
+
+
+
+
+
+AL/Advanced Automata Theory and Computability 
+
+[Elective]
+
+Topics:
+
+Sets and languages
+ - Regular languages
+ - Review of deterministic finite automata (DFAs)
+ - Nondeterministic finite automata (NFAs)
+ - Equivalence of DFAs and NFAs
+ - Review of regular expressions; their equivalence to finite automata
+ - Closure properties
+ - Proving languages non-regular, via the pumping lemma or alternative means
+
+Context-free languages
+ - Push-down automata (PDAs)
+ - Relationship of PDAs and context-free grammars
+ - Properties of context-free languages
+
+Turing machines, or an equivalent formal model of universal computation
+
+Nondeterministic Turing machines
+
+Chomsky hierarchy
+
+The Church-Turing thesis
+
+Computability
+
+Rice’s Theorem
+
+Examples of uncomputable functions
+
+Implications of uncomputability
+
+
+Learning Outcomes:
+
+Determine a language’s place in the Chomsky hierarchy (regular, context-free, recursively enumerable). [Assessment]
+Convert among equivalently powerful notations for a language, including among DFAs, NFAs, and regular expressions, and between PDAs and CFGs. [Usage]
+Explain the Church-Turing thesis and its significance. [Familiarity]
+Explain Rice’s Theorem and its significance. [Familiarity]
+Provide examples of uncomputable functions. [Familiarity]
+Prove that a problem is uncomputable by reducing a classic known uncomputable problem tit. [Usage]
+
+
+
+
+
+AL/Advanced Data Structures Algorithms and Analysis 
+
+[Elective]
+
+Many programs will want their students to have exposure to more advanced algorithms or methods of analysis. Below is a selection of possible advanced topics that are current and timely but by no means exhaustive.
+
+Topics:
+
+Balanced trees (e.g., AVL trees, red-black trees, splay trees, treaps)
+
+Graphs (e.g., topological sort, finding strongly connected components, matching)
+
+Advanced data structures (e.g., B-trees, Fibonacci heaps)
+
+String-based data structures and algorithms (e.g., suffix arrays, suffix trees, tries)
+
+Network flows (e.g., max flow [Ford-Fulkerson algorithm], max flow – min cut, maximum bipartite matching)
+
+Linear Programming (e.g., duality, simplex method, interior point algorithms)
+
+Number-theoretic algorithms (e.g., modular arithmetic, primality testing, integer factorization)
+
+Geometric algorithms (e.g., points, line segments, polygons. [properties, intersections], finding convex hull, spatial decomposition, collision detection, geometric search/proximity)
+
+Randomized algorithms
+
+Stochastic algorithms
+
+Approximation algorithms
+
+Amortized analysis
+
+Probabilistic analysis
+
+Online algorithms and competitive analysis
+
+Learning Outcomes:
+
+Understand the mapping of real-world problems to algorithmic solutions (e.g., as graph problems, linear programs, etc.). [Assessment]
+Select and apply advanced algorithmic techniques (e.g., randomization, approximation) to solve real problems. [Assessment]
+Select and apply advanced analysis techniques (e.g., amortized, probabilistic, etc.) to algorithms. [Assessment]
+
+
+
+
+
+{Architecture and Organization (AR)}
+
+Computing professionals should not regard the computer as just a black box that executes programs by magic. The knowledge area Architecture and Organization builds on Systems Fundamentals (SF) to develop a deeper understanding of the hardware environment upon which all computing is based, and the interface it provides to higher software layers. Students should acquire an understanding and appreciation of a computer system’s functional components, their characteristics, performance, and interactions, and, in particular, the challenge of harnessing parallelism to sustain performance improvements now and into the future. Students need to understand computer architecture to develop programs that can achieve high performance through a programmer’s awareness of parallelism and latency. In selecting a system to use, students should be able to understand the tradeoff among various components, such as CPU clock speed, cycles per instruction, memory size, and average memory access time.
+
+The learning outcomes specified for these topics correspond primarily to the core and are intended to support programs that elect to require only the minimum 16 hours of computer architecture of their students. For programs that want to teach more than the minimum, the same AR topics can be treated at a more advanced level by implementing a two-course sequence. For programs that want to cover the elective topics, those topics can be introduced within a two-course sequence and/or be treated in a more comprehensive way in a third course.
+
+
+
+
+AR/Digital Logic and Digital Systems
+
+Topics:
+
+Overview and history of computer architecture
+
+Combinational vs. sequential logic/Field programmable gate arrays as a fundamental combinational + sequential logic building block
+
+Multiple representations/layers of interpretation (hardware is just another layer)
+
+Computer-aided design tools that process hardware and architectural representations
+
+Register transfer notation/Hardware Description Language (Verilog/VHDL)
+
+Physical constraints (gate delays, fan-in, fan-out, energy/power)
+
+Learning outcomes:
+
+Describe the progression of computer technology components from vacuum tubes to VLSI, from mainframe computer architectures to the organization of warehouse-scale computers. [Familiarity]
+Comprehend the trend of modern computer architectures towards multi-core and that parallelism is inherent in all hardware systems. [Familiarity]
+Explain the implications of the 'power wall' in terms of further processor performance improvements and the drive towards harnessing parallelism. [Familiarity]
+Articulate that there are many equivalent representations of computer functionality, including logical expressions and gates, and be able to use mathematical expressions to describe the functions of simple combinational and sequential circuits. [Familiarity]
+Design the basic building blocks of a computer: arithmetic-logic unit (gate-level), registers (gate-level), central processing unit (register transfer-level), memory (register transfer-level). [Usage]
+Use CAD tools for capture, synthesis, and simulation to evaluate simple building blocks (e.g., arithmetic-logic unit, registers, movement between registers) of a simple computer design. [Usage]
+Evaluate the functional and timing diagram behavior of a simple processor implemented at the logic circuit level. [Assessment]
+
+
+
+
+
+AR/Machine Level Representation of Data 
+
+Topics:
+
+Bits, bytes, and words
+
+Numeric data representation and number bases
+
+Fixed- and floating-point systems
+
+Signed and twos-complement representations
+
+Representation of non-numeric data (character codes, graphical data)
+
+Representation of records and arrays
+
+Learning outcomes:
+
+Explain why everything is data, including instructions, in computers. [Familiarity]
+Explain the reasons for using alternative formats to represent numerical data. [Familiarity]
+Describe how negative integers are stored in sign-magnitude and twos-complement representations. [Familiarity]
+Explain how fixed-length number representations affect accuracy and precision. [Familiarity]
+Describe the internal representation of non-numeric data, such as characters, strings, records, and arrays. [Familiarity]
+Convert numerical data from one format tanother. [Usage]
+Write simple programs at the assembly/machine level for string processing and manipulation. [Usage]
+
+
+
+
+
+
+AR/Assembly Level Machine Organization 
+
+Topics:
+
+Basic organization of the von Neumann machine
+
+Control unit; instruction fetch, decode, and execution
+
+Instruction sets and types (data manipulation, control, I/O)
+
+Assembly/machine language programming
+
+Instruction formats
+
+Addressing modes
+
+Subroutine call and return mechanisms (cross-reference PL/Language Translation and Execution)
+
+I/and interrupts
+
+Heap vs. Static vs. Stack vs. Code segments
+
+Shared memory multiprocessors/multicore organization
+
+Introduction to SIMD vs. MIMD and the Flynn Taxonomy
+
+
+Learning outcomes:
+
+Explain the organization of the classical von Neumann machine and its major functional units. [Familiarity]
+Describe how an instruction is executed in a classical von Neumann machine, with extensions for threads, multiprocessor synchronization, and SIMD execution. [Familiarity]
+Describe instruction level parallelism and hazards, and how they are managed in typical processor pipelines. [Familiarity]
+Summarize how instructions are represented at both the machine level and in the context of a symbolic assembler. [Familiarity]
+Demonstrate how to map between high-level language patterns into assembly/machine language notations. [Familiarity]
+Explain different instruction formats, such as addresses per instruction and variable length vs. fixed length formats. [Familiarity]
+Explain how subroutine calls are handled at the assembly level. [Familiarity]
+Explain the basic concepts of interrupts and I/operations. [Familiarity]
+Write simple assembly language program segments. [Usage]
+Show how fundamental high-level programming constructs are implemented at the machine-language level. [Usage]
+
+
+
+
+
+AR/Memory System Organization and Architecture
+
+Cross-reference OS/Memory Management/Virtual Machines
+
+Topics:
+
+Storage systems and their technology
+
+Memory hierarchy: importance of temporal and spatial locality
+
+Main memory organization and operations
+
+Latency, cycle time, bandwidth, and interleaving
+
+Cache memories (address mapping, block size, replacement and store policy)
+
+Multiprocessor cache consistency/Using the memory system for inter-core synchronization/atomic memory operations
+
+Virtual memory (page table, TLB)
+
+Fault handling and reliability
+
+Error coding, data compression, and data integrity (cross-reference SF/Reliability through Redundancy)
+
+
+Learning outcomes:
+
+Identify the main types of memory technology (e.g., SRAM, DRAM, Flash, magnetic disk) and their relative cost and performance. [Familiarity]
+Explain the effect of memory latency on running time. [Familiarity]
+Describe how the use of memory hierarchy (cache, virtual memory) is used treduce the effective memory latency. [Familiarity]
+Describe the principles of memory management. [Familiarity]
+Explain the workings of a system with virtual memory management. [Familiarity]
+Compute Average Memory Access Time under a variety of cache and memory configurations and mixes of instruction and data references. [Usage]
+
+
+
+
+
+
+AR/Interfacing and Communication
+
+Cross-reference Operating Systems (OS) Knowledge Area for a discussion of the operating system view of input/output processing and management. The focus here is on the hardware mechanisms for supporting device interfacing and processor-to-processor communications.
+
+Topics:
+
+I/fundamentals: handshaking, buffering, programmed I/O, interrupt-driven I/O
+
+Interrupt structures: vectored and prioritized, interrupt acknowledgment
+
+External storage, physical organization, and drives
+
+Buses: bus protocols, arbitration, direct-memory access (DMA)
+
+Introduction to networks: communications networks as another layer of remote access
+
+Multimedia support
+
+RAID architectures
+
+
+Learning outcomes:
+
+Explain how interrupts are used to implement I/control and data transfers. [Familiarity]
+Identify various types of buses in a computer system. [Familiarity]
+Describe data access from a magnetic disk drive. [Familiarity]
+Compare common network organizations, such as ethernet/bus, ring, switched vs. routed. [Familiarity]
+Identify the cross-layer interfaces needed for multimedia access and presentation, from image fetch from remote storage, through transport over a communications network, to staging into local memory, and final presentation ta graphical display. [Familiarity]
+Describe the advantages and limitations of RAID architectures. [Familiarity]
+
+
+
+
+AR/Functional Organization
+
+[Elective]
+
+Note: elective for computer scientist; would be core for computer engineering curriculum.
+
+Topics:
+
+Implementation of simple datapaths, including instruction pipelining, hazard detection and resolution
+
+Control unit: hardwired realization vs. microprogrammed realization
+
+Instruction pipelining
+
+Introduction to instruction-level parallelism (ILP)
+
+
+Learning outcomes:
+
+Compare alternative implementation of datapaths. [Familiarity]
+Discuss the concept of control points and the generation of control signals using hardwired or microprogrammed implementations. [Familiarity]
+Explain basic instruction level parallelism using pipelining and the major hazards that may occur. [Familiarity]
+Design and implement a complete processor, including datapath and control. [Usage]
+Determine, for a given processor and memory system implementation, the average cycles per instruction. [Assessment]
+
+
+
+
+
+AR/Multiprocessing and Alternative Architectures 
+
+[Elective]
+
+The view here is on the hardware implementation of SIMD and MIMD architectures.
+
+Cross-reference PD/Parallel Architecture.
+
+Topics:
+
+Power Law
+
+Example SIMD and MIMD instruction sets and architectures
+
+Interconnection networks (hypercube, shuffle-exchange, mesh, crossbar)
+
+Shared multiprocessor memory systems and memory consistency
+
+Multiprocessor cache coherence
+
+Learning outcomes:
+
+Discuss the concept of parallel processing beyond the classical von Neumann model. [Familiarity]
+Describe alternative parallel architectures such as SIMD and MIMD. [Familiarity]
+Explain the concept of interconnection networks and characterize different approaches. [Familiarity]
+Discuss the special concerns that multiprocessing systems present with respect to memory management and describe how these are addressed. [Familiarity]
+Describe the differences between memory backplane, processor memory interconnect, and remote memory via networks, their implications for access latency and impact on program performance. [Familiarity]
+
+
+AR/Performance Enhancements
+
+[Elective]
+
+Topics:
+
+Superscalar architecture
+
+Branch prediction, Speculative execution, Out-of-order execution
+
+Prefetching
+
+Vector processors and GPUs
+
+Hardware support for multithreading
+
+Scalability
+
+Alternative architectures, such as VLIW/EPIC, and Accelerators and other kinds of Special-Purpose Processors
+
+Learning outcomes:
+
+Describe superscalar architectures and their advantages. [Familiarity]
+Explain the concept of branch prediction and its utility. [Familiarity]
+Characterize the costs and benefits of prefetching. [Familiarity]
+Explain speculative execution and identify the conditions that justify it. [Familiarity]
+Discuss the performance advantages that multithreading offered in an architecture along with the factors that make it difficult to derive maximum benefits from this approach. [Familiarity]
+Describe the relevance of scalability to performance. [Familiarity]
+
+
+
+
+
+{Computational Science (CN)}
+
+Computational Science is a field of applied computer science, that is, the application of computer science to solve problems across a range of disciplines. In the book Introduction to Computational Science [3], the authors offer the following definition: 'the field of computational science combines computer simulation, scientific visualization, mathematical modeling, computer programming and data structures, networking, database design, symbolic computation, and high performance computing with various disciplines.' Computer science, which largely focuses on the theory, design, and implementation of algorithms for manipulating data and information, can trace its roots to the earliest devices used to assist people in computation over four thousand years ago. Various systems were created and used to calculate astronomical positions. Ada Lovelace’s programming achievement was intended to calculate Bernoulli numbers. In the late nineteenth century, mechanical calculators became available, and were immediately put to use by scientists. The needs of scientists and engineers for computation have long driven research and innovation in computing. As computers increase in their problem-solving power, computational science has grown in both breadth and importance. It is a discipline in its own right [2] and is considered to be 'one of the five college majors on the rise [1].' An amazing assortment of sub-fields have arisen under the umbrella of Computational Science, including computational biology, computational chemistry, computational mechanics, computational archeology, computational finance, computational sociology and computational forensics.
+
+Some fundamental concepts of computational science are germane to every computer scientist (e.g., modeling and simulation), and computational science topics are extremely valuable components of an undergraduate program in computer science. This area offers exposure to many valuable ideas and techniques, including precision of numerical representation, error analysis, numerical techniques, parallel architectures and algorithms, modeling and simulation, information visualization, software engineering, and optimization. Topics relevant to computational science include fundamental concepts in program construction (SDF/Fundamental Programming Concepts), algorithm design (SDF/Algorithms and Design), program testing (SDF/Development Methods), data representations (AR/Machine Representation of Data), and basic computer architecture (AR/Memory System Organization and Architecture). At the same
+time, students whtake courses in this area have an opportunity to apply these techniques in a wide range of application areas, such as molecular and fluid dynamics, celestial mechanics, economics, biology, geology, medicine, and social network analysis. Many of the techniques used in these areas require advanced mathematics such as calculus, differential equations, and linear algebra. The descriptions here assume that students have acquired the needed mathematical background elsewhere.
+
+ In the computational science community, the terms run, modify, and create are often used to describe levels of understanding. This chapter follows the conventions of other chapters in this volume and uses the terms familiarity, usage, and assessment.
+
+
+References
+
+Fischer, K. and Glenn, D., '5 College Majors on the Rise,' The Chronicle of Higher Education, August 31, 2009.
+
+President’s Information Technology Advisory Committee, 2005: p. 1http://www.nitrd.gov/pitac/reports/20050609_computational/computational.pdf
+
+Shiflet, A. B. and Shiflet, G. W. Introduction to computational Science: Modeling and
+Simulation for the Sciences, Princeton University Press, 2006: p. 3.
+
+
+
+
+
+CN/Introduction to Modeling and Simulation
+
+Abstraction is a fundamental concept in computer science. A principal approach to computing is to abstract the real world, create a model that can be simulated on a machine. The roots of computer science can be traced to this approach, modeling things such as trajectories of artillery shells and the modeling cryptographic protocols, both of which pushed the development of early computing systems in the early and mid-1940’s.
+
+Modeling and simulation of real world systems represent essential knowledge for computer scientists and provide a foundation for computational sciences. Any introduction to Modeling and simulation would either include or presume an introduction to computing. In addition, a general set of modeling and simulation techniques, data visualization methods, and software testing and evaluation mechanisms are alsimportant.
+
+Topics:
+
+Models as abstractions of situations
+
+Simulations as dynamic modeling
+
+Simulation techniques and tools, such as physical simulations, human-in-the-loop guided simulations, and virtual reality
+
+Foundational approaches to validating models (e.g., comparing a simulation’s output to real data or the output of another model)
+
+Presentation of results in a form relevant to the system being modeled
+
+Learning Outcomes:
+
+Explain the concept of modeling and the use of abstraction that allows the use of a machine to solve a problem. [Familiarity]
+Describe the relationship between modeling and simulation, i.e., thinking of simulation as dynamic modeling. [Familiarity]
+Create a simple, formal mathematical model of a real-world situation and use that model in a simulation. [Usage]
+Differentiate among the different types of simulations, including physical simulations, human-guided simulations, and virtual reality. [Familiarity]
+Describe several approaches to validating models. [Familiarity]
+Create a simple display of the results of a simulation. [Usage]
+
+
+
+
+
+CN/Modeling and Simulation
+
+[Elective]
+
+Topics:
+
+Purpose of modeling and simulation including optimization; supporting decision making, forecasting, safety considerations; for training and education
+Tradeoffs including performance, accuracy, validity, and complexity
+
+The simulation process; identification of key characteristics or behaviors, simplifying assumptions; validation of outcomes
+
+Model building: use of mathematical formulas or equations, graphs, constraints; methodologies and techniques; use of time stepping for dynamic systems
+
+Formal models and modeling techniques: mathematical descriptions involving simplifying assumptions and avoiding detail. Examples of techniques include:
+- Monte Carlo methods 
+- Stochastic processes 
+- Queuing theory
+- Petri nets and colored Petri nets
+- Graph structures such as directed graphs, trees, networks
+- Games, game theory, the modeling of things using game theory 
+- Linear programming and its extensions
+- Dynamic programming
+- Differential equations: ODE, PDE 
+- Non-linear techniques
+- State spaces and transitions
+
+Assessing and evaluating models and simulations in a variety of contexts; verification and validation of models and simulations
+Important application areas including health care and diagnostics, economics and finance, city and urban planning, science, and engineering
+
+Software in support of simulation and modeling; packages, languages
+
+
+Learning Outcomes:
+
+Explain and give examples of the benefits of simulation and modeling in a range of important application areas. [Familiarity]
+Demonstrate the ability to apply the techniques of modeling and simulation ta range of problem areas. [Usage]
+Explain the constructs and concepts of a particular modeling approach. [Familiarity]
+Explain the difference between validation and verification of a model; demonstrate the difference with specific examples (Verification means that the computations of the model are correct. If we claim to compute total time, for example, the computation actually does that. Validation asks whether the model matches the real situation). [Assessment]
+Verify and validate the results of a simulation. [Assessment]
+Evaluate a simulation, highlighting the benefits and the drawbacks. [Assessment]
+Choose an appropriate modeling approach for a given problem or situation. [Assessment]
+Compare results from different simulations of the same situation and explain any differences. [Assessment]
+Infer the behavior of a system from the results of a simulation of the system. [Assessment]
+Extend or adapt an existing model ta new situation. [Assessment]
