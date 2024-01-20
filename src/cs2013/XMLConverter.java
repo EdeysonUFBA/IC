@@ -29,42 +29,49 @@ public class XMLConverter {
                 unitElement.setAttribute("area", knowledgeArea.getName());  // Adiciona o atributo "area"
                 areaElement.appendChild(unitElement);
 
-                addSuperTopicsAndTopics(doc, unitElement, unit.getTopics());
+                addSuperTopicsAndTopics(doc, unitElement, unit.getTopics(), unit.getName());
+
             }
         }
 
         return doc;
     }
 
-    private static void addSuperTopicsAndTopics(Document doc, Element parentElement, List<Topic> topics) {
+    private static void addSuperTopicsAndTopics(Document doc, Element parentElement, List<Topic> topics, String knowledgeUnitName) {
         for (Topic topic : topics) {
             if (topic.getSubtopic().isEmpty()) {
                 // If there are no subtopics, the current topic is a regular topic
                 Element topicElement = doc.createElement("Topic");
                 topicElement.setAttribute("description", topic.getDescricao());
+                topicElement.setAttribute("knowledgeUnit", knowledgeUnitName);
                 parentElement.appendChild(topicElement);
             } else {
                 // If there are subtopics, the current topic is a super topic
                 Element superTopicElement = doc.createElement("SuperTopic");
                 superTopicElement.setAttribute("description", topic.getDescricao());
+                superTopicElement.setAttribute("knowledgeUnit", knowledgeUnitName);
                 parentElement.appendChild(superTopicElement);
     
                 // Add subtopics recursively
-                addSubtopics(doc, superTopicElement, topic.getSubtopic());
+                addSubtopics(doc, superTopicElement, topic.getSubtopic(), knowledgeUnitName);
             }
         }
     }
     
-    private static void addSubtopics(Document doc, Element parentElement, List<Topic> subtopics) {
+    private static void addSubtopics(Document doc, Element parentElement, List<Topic> subtopics, String knowledgeUnitName) {
         for (Topic subtopic : subtopics) {
             // Subtopics are always regular topics
             Element topicElement = doc.createElement("Topic");
             topicElement.setAttribute("description", subtopic.getDescricao());
+            topicElement.setAttribute("knowledgeUnit", knowledgeUnitName);
+            parentElement.appendChild(topicElement);
+    
+            // Add relationship with parent SuperTopic
             parentElement.appendChild(topicElement);
     
             // Recursively add subtopics if any
             if (!subtopic.getSubtopic().isEmpty()) {
-                addSubtopics(doc, topicElement, subtopic.getSubtopic());
+                addSubtopics(doc, topicElement, subtopic.getSubtopic(), knowledgeUnitName);
             }
         }
     }
