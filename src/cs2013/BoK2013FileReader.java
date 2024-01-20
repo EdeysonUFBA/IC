@@ -31,7 +31,7 @@ import java.util.regex.Pattern;
  */
 public class BoK2013FileReader {
     public static void main(String[] args) {
-        String filePath = "D:\\studies\\pibic-af\\JenaKSA-main\\src\\BoK_CS2013.txt";
+        String filePathEnglish = "C:\\Users\\Guilherme\\Documents\\Programação\\Projetos\\GitHub\\IC\\src\\BoK_CS2013.txt";
         String tipo = "";
         Topic subTopic = null;
         Topic subSubTopic = null;        

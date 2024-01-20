@@ -21,7 +21,7 @@ public class ConvertToDocXML {
             TransformerFactory transformerFactory = TransformerFactory.newInstance();
             Transformer transformer = transformerFactory.newTransformer();
             DOMSource source = new DOMSource(xmlDoc);
-            StreamResult result = new StreamResult(new File("C:\\Users\\Pc\\Downloads\\output.xml"));
+            StreamResult result = new StreamResult(new File("C:\\Users\\Guilherme\\Documents\\Programação\\Projetos\\GitHub\\XML\\output.xml"));
             transformer.transform(source, result);
 
             System.out.println("Arquivo XML criado com sucesso!");

@@ -31,7 +31,7 @@ import java.util.regex.Pattern;
  */
 public class BoKCS2013Parser {
 	
-	private String inputFileName  = "D:\\studies\\pibic-af\\JenaKSA-main\\src\\BoK_CS2013.txt";	
+	private String inputFileName  = "C:\\Users\\Guilherme\\Documents\\Programação\\Projetos\\GitHub\\IC\\src\\BoK_CS2013.txt";	
 	private ArrayList<KnowledgeArea> knowledgeAreas = new ArrayList<KnowledgeArea>();
 	private KnowledgeArea knowledgeArea = new KnowledgeArea(); 
 	private KnowledgeUnit knowledgeUnit = new KnowledgeUnit();	

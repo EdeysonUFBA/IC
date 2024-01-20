@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * Gera a hierarquia (Lista) a colocar num HTML (HierarquiaBok2013.html).
- * @author edeys
+ * @author edeyson
  *
  */
 public class FileToHTMLList {
